@@ -9,7 +9,7 @@
   }
 
   body{
-    background-color:   #b28471;
+    background-color:   white;
   }
   
 .one{
@@ -22,7 +22,7 @@
   .ca {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
     width: 30%;
-  margin-left: 0.1%;
+  margin-left: 1%;
   background-color: white;
   opacity: 0.8;
 

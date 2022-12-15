@@ -66,6 +66,12 @@ export default function SignUp() {
 </br>
 <br>
 </br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
 <Footer />
 </div>
 <br>

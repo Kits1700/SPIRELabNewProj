@@ -73,7 +73,10 @@ export default function Part() {
     </br>
     <br>
     </br>
-    
+    <br>
+    </br>
+    <br>
+    </br>
    
    {/* <div className='cards'>
       <h2>ARTPARK</h2>

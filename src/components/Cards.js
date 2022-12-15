@@ -28,6 +28,10 @@ function Cards() {
   return (
     <>
     <div class ="para">
+      <br>
+      </br>
+      <br>
+      </br>
     <p>
 Project Vaani aims to capture the multilingual speech diversity in India by
 collecting speech data across 773 selected districts in India with the main purpose to develop a national digital public platform for languages to provide universal access to content, i.e., boost the delivery of digital content in all Indic

@@ -20,16 +20,20 @@ export default function Products() {
 
    <br>
    </br>
- 
+   <p>
+  Click on the below card to know more.
+      </p>
     <a href='https://www.bhashini.gov.in/en/'>
     <div class="ca">
        
 	  <img class = "one" src="/images/Bhas.png"  width="300" height="300" alt="img" />
 	  <div class="ta">
-	    
+	  
 	  </div>
   </div>
+  
   </a>
+
    
   <br>
 </br>

@@ -1,5 +1,5 @@
 .footer-container {
-  background: linear-gradient(40deg, #d8a28c 100%,  #c6976d 100%);
+  background: linear-gradient(40deg, #050505 70%,  #000000 100%);
   
   display: flex;
   flex-direction: column;
@@ -128,12 +128,12 @@
   
     color: #fff;
     justify-self: start;
-    margin-left: 1px;
+    margin-right: 2px;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.1rem;
     display: flex;
-    align-items: center;
+  
     font-size: small;
   }
   
@@ -141,8 +141,8 @@
 
 .website-rights {
   color: #fff;
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 18px;
+  margin-top: 18px;
   font-size: x-small;
 }
 

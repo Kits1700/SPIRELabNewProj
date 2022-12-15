@@ -4,10 +4,11 @@
     flex-wrap: wrap;
    
     font-family: sans-serif;
-    background-color:  #b28471;
+    background-color:  white;
+   
   }
   body{
-    background-color: #b28471;
+    background-color: white;
   }
   .tabs__label {
     padding: 10px 16px;

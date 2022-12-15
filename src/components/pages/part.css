@@ -9,7 +9,7 @@
   }
 
   body{
-    background-color:   #b28471;
+    background-color:   white;
   }
   
 .one{
@@ -31,7 +31,7 @@
   }
   h2{
     text-align: center;
-    color:#f8f8f8;
+    color:black;
     opacity: 0.8;
     font-size:larger;
   }
