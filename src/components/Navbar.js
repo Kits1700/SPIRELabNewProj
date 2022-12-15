@@ -53,8 +53,8 @@ function Navbar() {
                   <div class="dropdown">
   <button class="dropbtn">Home</button>
   <div class="dropdown-content">
-    <Link to = '/sign-up'>About</Link>
-    <Link to = '/part'>Partners</Link>
+    <Link to = '/about'>About</Link>
+    <Link to = '/partners'>Partners</Link>
    
   </div>
 </div>
@@ -67,7 +67,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/data'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -76,7 +76,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/people'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

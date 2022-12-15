@@ -8,6 +8,7 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import Part from './components/pages/Part';
 import Contact from './components/pages/Contact';
+import About from './components/pages/About';
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
-          <Route path='/part' component={Part} />
+          <Route path='/people' component={Services} />
+          <Route path='/data' component={Products} />
+          <Route path='/about' component={SignUp} />
+          <Route path='/partners' component={Part} />
           <Route path='/contact' component={Contact} />
         </Switch>
       </Router>

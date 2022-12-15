@@ -37,7 +37,7 @@ export default function Part() {
   </br>
   <a href='https://about.google/'>
   <div class="c">
-	  <img class = "one" src="/images/google.jpg" alt="img"/>
+	  <img class = "two" src="/images/google.jpg" alt="img"/>
 	  <div class="t">
 	
 	  </div>

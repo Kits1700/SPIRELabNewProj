@@ -9,7 +9,7 @@ video {
     z-index: -1;
   }
   .hero-container1 {
-    background: url('./pages/lang.png') center center/cover no-repeat; 
+    /* background: url('./pages/lang.png') center center/cover no-repeat;  */
     background-size:contain;
     opacity: 0.9;
     height: 100vh;
