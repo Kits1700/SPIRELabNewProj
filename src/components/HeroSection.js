@@ -6,9 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <video src='/videos/syspin.mp4' autoPlay loop muted />
-      <h1>NEW PROJECT</h1>
-      <p>This is a new project</p>
+      
+      <h1>Project Vaani</h1>
+      <p>Aims to capture the multilingual speech diversity in India</p>
       {/* <div className='hero-btns'>
         <Button
           className='btns'

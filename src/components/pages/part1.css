@@ -1,0 +1,38 @@
+.ca {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .ca:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  body{
+    background-color:   #b28471;
+  }
+  
+.one{
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60px;
+    object-fit: contain;
+}
+  .ca {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    width: 30%;
+  margin-left: 0.1%;
+  background-color: white;
+  opacity: 0.8;
+
+   }
+  .ta {
+    padding: 10px 20px;
+  }
+  h2{
+    text-align: center;
+    color:#f8f8f8;
+    opacity: 0.8;
+    font-size:larger;
+  }
