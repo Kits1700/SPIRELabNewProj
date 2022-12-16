@@ -210,7 +210,7 @@
    background-size: contain;
    background-repeat: no-repeat;
    background-color: black;
-   background-image: url('./ImageCollec.png');
+   background-image: url('./ImageCollection.png');
  
    border-radius: 20px;
    background-position: center center;
@@ -249,6 +249,8 @@
    and paragraph*/
 .card__innerabout1 h2 {
    margin-top: 1rem;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .card__innerabout1 p {
@@ -259,9 +261,13 @@
    line-height: 2.5rem;
    margin-top: 1.5rem;
    color: #fff;
+   margin-left: 25%;
+   margin-right: auto;
 }
 .card__innerabout1 h2{
    color: #fff;
+   margin-left: auto;
+   margin-right: auto;
 
 }
 
@@ -273,7 +279,7 @@
    background-size: contain;
    background-repeat: no-repeat;
    background-color: black;
-   background-image: url('./ImageCur.png');
+   background-image: url('./ImageCuration.png');
  
    border-radius: 20px;
    background-position: center center;
@@ -313,6 +319,8 @@
    and paragraph*/
 .card__innerabout2 h2 {
    margin-top: 1rem;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .card__innerabout2 p {
@@ -323,6 +331,8 @@
    line-height: 2.5rem;
    margin-top: 1.5rem;
    color: #fff;
+   margin-left: 28%;
+   margin-right: auto;
 }
 .card__innerabout2 h2{
    color: #fff;
@@ -336,7 +346,7 @@
    background-size: contain;
    background-repeat: no-repeat;
    background-color: black;
-   background-image: url('./SpeechRec.png');
+   background-image: url('./SpeechRecording.png');
  
    border-radius: 20px;
    background-position: center center;
@@ -375,6 +385,8 @@
    and paragraph*/
 .card__innerabout3 h2 {
    margin-top: 1rem;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .card__innerabout3 p {
@@ -385,6 +397,8 @@
    line-height: 2.5rem;
    margin-top: 1.5rem;
    color: #fff;
+   margin-left: 23%;
+   margin-right: auto;
 }
 .card__innerabout3 h2{
    color: #fff;
@@ -398,7 +412,7 @@
    background-size: contain;
    background-repeat: no-repeat;
    background-color: black;
-   background-image: url('./SQ.png');
+   background-image: url('./SpeechQualityControl.png');
  
    border-radius: 20px;
    background-position: center center;
@@ -437,6 +451,8 @@
    and paragraph*/
 .card__innerabout4 h2 {
    margin-top: 1rem;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .card__innerabout4 p {
@@ -448,6 +464,8 @@
    margin-top: 1.5rem;
    margin-bottom: 10%;
    color: #fff;
+   margin-left: 25%;
+   margin-right: auto;
 }
 .card__innerabout4 h2{
    color: #fff;
@@ -461,7 +479,7 @@
    background-size: contain;
    background-repeat: no-repeat;
    background-color: black;
-   background-image: url('./10.png');
+   background-image: url('./SpeechTranscription.png');
  
    border-radius: 20px;
    background-position: center center;
@@ -499,6 +517,8 @@
    and paragraph*/
 .card__innerabout5 h2 {
    margin-top: 1rem;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .card__innerabout5 p {
@@ -508,22 +528,58 @@
    font-weight: 200;
    line-height: 2.5rem;
    margin-top: 1.5rem;
+   margin-left: 10%;
+   margin-right: auto;
    color: #fff;
+   margin-left: 30%;
+   margin-right: auto;
 }
+
 .card__innerabout5 h2{
    color: #fff;
 
 }
 
-.arr p{
+.arr1 p{
    margin-left: 53%;
    font-size: 10vw;
    margin-top: 60%;
    height: max-content;
-   color: #8D4F48;
-   opacity: 0.7;
+   color:cadetblue;
+   opacity: 0.8;
+   font-weight: normal;
+}
+.arr2 p{
+   margin-left: 53%;
+   font-size: 10vw;
+   margin-top: 60%;
+   height: max-content;
+   color:#D22B2B;
+   opacity: 0.8;
+   font-weight: normal;
+}
+.arr3 p{
+   margin-left: 53%;
+   font-size: 10vw;
+   margin-top: 60%;
+   height: max-content;
+   color:teal;
+   opacity: 0.8;
+   font-weight: normal;
+}
+.arr4 p{
+   margin-left: 53%;
+   font-size: 10vw;
+   margin-top: 60%;
+   height: max-content;
+   color:#9A9AEB;
+   opacity: 0.8;
    font-weight: normal;
 }
 .hovertext{
    font-weight: lighter;
+}
+h4{
+   font-weight: lighter;
+   margin-left: 42%;
 }
