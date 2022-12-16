@@ -8,7 +8,7 @@ function HeroSection() {
     <div className='hero-container'>
       
       <h1>Project Vaani</h1>
-      <p>Aims to capture the multilingual speech diversity in India</p>
+      <p>Aims to capture the language landscape of India</p>
       {/* <div className='hero-btns'>
         <Button
           className='btns'
