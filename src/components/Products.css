@@ -5,6 +5,7 @@ body, html {
   margin: 0;
   font-family: Arial;
   background-color: white;
+  display: flex;
 }
 
 /* Style tab links */
@@ -30,6 +31,7 @@ body, html {
   display: none;
   padding: 100px 20px;
   height: 100%;
+  display: flex;
 }
 
 #Home {background-color: red;}

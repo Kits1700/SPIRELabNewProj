@@ -9,6 +9,7 @@ import SignUp from './components/pages/SignUp';
 import Part from './components/pages/Part';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
+import About1 from './components/pages/About1';
 
 function App() {
   return (

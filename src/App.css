@@ -8,11 +8,12 @@
 body{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: white;
+
 }
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,.about,.partners,.contact{
   display: flex;
   height: 90vh;
   align-items: center;
