@@ -42,11 +42,14 @@ export default function SignUp() {
 
 
   {/* <div class="flow1" id="no1"><a href="" title='Click to know more'>Image collection</a></div> */}
+<div class = "cardtitle">
+  <h2>Image Collection</h2>
+</div>
   <div class="cardabout1">
  
        
         <div class="card__innerabout1">
-            <h2>Image Collection </h2>
+
  
              
 <p>Images collection by crowdsource users.
@@ -61,12 +64,14 @@ export default function SignUp() {
   </div>
 
 
-
+  <div class = "cardtitle">
+  <h2>Image Curation</h2>
+</div>
     <div class="cardabout2">
 
        
  <div class="card__innerabout2">
-     <h2>Image curation</h2>
+
 
       
 <p>
@@ -81,11 +86,14 @@ Filter out collected images to remove problematic ones.
   <p> &#8595;</p>
   </div>
 
+  <div class = "cardtitle">
+  <h2>Speech recording </h2>
+</div>
   <div class="cardabout3">
  
        
  <div class="card__innerabout3">
-     <h2>Speech recording </h2>
+  
 
       
 <p>Record when people are asked to speak about images one by one.
@@ -99,11 +107,14 @@ Filter out collected images to remove problematic ones.
    <div class ="arr3">
   <p> &#8595;</p>
   </div>
+  <div class = "cardtitle">
+  <h2>Speech Quality control </h2>
+</div>
   <div class="cardabout4">
  
        
  <div class="card__innerabout4">
-     <h2>Speech Quality control </h2>
+
 
       
 <p>Filter out low quality speech recordings.
@@ -115,11 +126,14 @@ Filter out collected images to remove problematic ones.
 <div class ="arr4">
   <p> &#8595;</p>
   </div>
+  <div class = "cardtitle">
+  <h2>10% transcription </h2>
+</div>
 <div class="cardabout5">
  
        
  <div class="card__innerabout5">
-     <h2>10% transcription </h2>
+  
 
       
 <p>

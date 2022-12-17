@@ -261,8 +261,9 @@
    line-height: 2.5rem;
    margin-top: 1.5rem;
    color: #fff;
-   margin-left: 25%;
-   margin-right: auto;
+   margin-left: 21%;
+   margin-right: 18%;
+   text-align: center;
 }
 .card__innerabout1 h2{
    color: #fff;
@@ -331,8 +332,9 @@
    line-height: 2.5rem;
    margin-top: 1.5rem;
    color: #fff;
-   margin-left: 28%;
-   margin-right: auto;
+   margin-left: 15%;
+   margin-right: 11%;
+   text-align: center;
 }
 .card__innerabout2 h2{
    color: #fff;
@@ -397,8 +399,9 @@
    line-height: 2.5rem;
    margin-top: 1.5rem;
    color: #fff;
-   margin-left: 23%;
-   margin-right: auto;
+   margin-left: 15%;
+   margin-right: 12%;
+   text-align: center;
 }
 .card__innerabout3 h2{
    color: #fff;
@@ -464,8 +467,10 @@
    margin-top: 1.5rem;
    margin-bottom: 10%;
    color: #fff;
-   margin-left: 25%;
-   margin-right: auto;
+   margin-left: 15%;
+   margin-right: 9%;
+   text-align: center;
+   
 }
 .card__innerabout4 h2{
    color: #fff;
@@ -528,11 +533,11 @@
    font-weight: 200;
    line-height: 2.5rem;
    margin-top: 1.5rem;
-   margin-left: 10%;
-   margin-right: auto;
+   margin-left: 15%;
+   margin-right: 10%;
    color: #fff;
-   margin-left: 30%;
-   margin-right: auto;
+   text-align: center;
+  
 }
 
 .card__innerabout5 h2{
@@ -545,36 +550,36 @@
    font-size: 10vw;
    margin-top: 60%;
    height: max-content;
-   color:cadetblue;
+   color:black;
    opacity: 0.8;
-   font-weight: normal;
+   font-weight: bold;
 }
 .arr2 p{
    margin-left: 53%;
    font-size: 10vw;
    margin-top: 60%;
    height: max-content;
-   color:#D22B2B;
+   color:black;
    opacity: 0.8;
-   font-weight: normal;
+   font-weight: bold;
 }
 .arr3 p{
    margin-left: 53%;
    font-size: 10vw;
    margin-top: 60%;
    height: max-content;
-   color:teal;
+   color:black;
    opacity: 0.8;
-   font-weight: normal;
+   font-weight: bold;
 }
 .arr4 p{
    margin-left: 53%;
    font-size: 10vw;
    margin-top: 60%;
    height: max-content;
-   color:#9A9AEB;
+   color:black;
    opacity: 0.8;
-   font-weight: normal;
+   font-weight: bold;
 }
 .hovertext{
    font-weight: lighter;
@@ -582,4 +587,10 @@
 h4{
    font-weight: lighter;
    margin-left: 42%;
+}
+.cardtitle{
+margin-left: 10%;
+transform:  translateY(8vw); 
+
+
 }

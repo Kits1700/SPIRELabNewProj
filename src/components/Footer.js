@@ -14,10 +14,10 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='https://iisc.ac.in/' className='social-logo'>
+            <a href ='https://iisc.ac.in/' className='social-logo'>
               IISC | SPIRE LAB | ARTPARK
-              
-            </Link>
+              </a>
+            
           </div>
           <small class='website-rights'>VAANI © 2022</small>
           <div class='social-icons'>
