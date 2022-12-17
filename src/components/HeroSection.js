@@ -30,9 +30,9 @@ function HeroSection() {
     <div class="hero">
   <div class="hero-overlay">
     <h1>Project Vaani</h1>
-    <p>Aims to capture the language landscape of India</p>
+    <p>Capturing the language landscape of India  for an inclusive Digital India</p>
   </div>
-  <img src="https://media.istockphoto.com/id/1019491810/photo/india-3d-render-topographic-map-color.jpg?s=612x612&w=0&k=20&c=BfIXKXE-6dw5pJUJPYoIR-1QPaJDORbDUZuTqNdBbXo=" alt="bubbles from surf" class="hero-image"/> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/India_satellite_image.png" alt="bubbles from surf" class="hero-image"/> 
 </div>
     // <div className='hero-container'>
       

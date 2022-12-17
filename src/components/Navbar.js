@@ -160,26 +160,6 @@ function Navbar() {
               Home
               </Link>
             </li>
-               <li className='nav-item'>
-              <Link
-                to='/about'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-               About
-              </Link>
-            </li>
-              <li className='nav-item'>
-              <Link
-                to='/partners'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-              Partners
-              </Link>
-            </li> 
-          
-          
             <li className='nav-item'>
               <Link
                 to='/data'
@@ -191,14 +171,28 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/people'
+                to='/team'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                People
+                Team
               </Link>
             </li>
             
+               <li className='nav-item'>
+              <Link
+                to='/methodology'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+              Methodology
+              </Link>
+            </li>
+            
+          
+          
+           
+          
             <li className='nav-item'>
               <Link
                 to='/contact'

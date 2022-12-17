@@ -8,19 +8,19 @@ import Footer from '../Footer';
 export default function Services() {
   return (<>
   <div className='cards'>
-      <h2>Meet The Team</h2>
+      <h2> Project Investigator</h2>
       <br>
       </br>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+            <CardItem class = "one"
               src='images/PKG1.jpeg'
-              text='Prasanta Kumar Ghosh'
+              text='Prof. Prasanta Kumar Ghosh'
              
               path='/services'
             />
-            <CardItem
+            {/* <CardItem
               src='images/brown.jpg'
               text=''
             
@@ -31,10 +31,20 @@ export default function Services() {
               text=''
              
               path='/services'
-            />
+            /> */}
             
           </ul>
-          <ul className='cards__items'>
+          <h2> Partners</h2>
+         <br>
+         </br>
+          <a href='https://ee.iisc.ac.in/~prasantg/'>
+          <CardItem class = "one"
+              src='images/artpark.png'
+              text = 'ARTPARK'
+           
+            />
+            </a>
+          {/* <ul className='cards__items'>
             <CardItem
               src='images/brown.jpg'
               text='Lorem Ipsum Lorem Ipsum Lorem Ipsum'
@@ -53,7 +63,7 @@ export default function Services() {
               
               path='/sign-up'
             />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

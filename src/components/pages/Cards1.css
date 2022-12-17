@@ -29,6 +29,7 @@
   .cards__items {
     margin-bottom: 24px;
     color: black;
+    font-weight: lighter;
     
   }
   
@@ -106,7 +107,27 @@
     color: black;
     font-size: 14px;
     line-height: 20px;
+    font-weight: lighter;
+    /* margin-left: 21%; */
   }
+
+
+  .cards__item__text {
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: lighter;
+    /* margin-left: 21%; */
+  }
+
+  .one{
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: lighter;
+    margin-left: 21%;
+  }
+
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
