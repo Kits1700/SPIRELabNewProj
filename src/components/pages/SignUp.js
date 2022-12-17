@@ -81,10 +81,10 @@ Filter out collected images to remove problematic ones.
  </div>
 </div>
 
-  {/* <div id="line1"></div> */}
-  <div class ="arr2">
+<div class ="arr2">
   <p> &#8595;</p>
   </div>
+
 
   <div class = "cardtitle">
   <h2>Speech recording </h2>
@@ -104,9 +104,10 @@ Filter out collected images to remove problematic ones.
 
 {/*   
   <div id="line1"></div> */}
-   <div class ="arr3">
+  <div class ="arr3">
   <p> &#8595;</p>
   </div>
+
   <div class = "cardtitle">
   <h2>Speech Quality control </h2>
 </div>
@@ -126,8 +127,10 @@ Filter out collected images to remove problematic ones.
 <div class ="arr4">
   <p> &#8595;</p>
   </div>
+
   <div class = "cardtitle">
   <h2>10% transcription </h2>
+  <div class="down-arrow"></div>
 </div>
 <div class="cardabout5">
  

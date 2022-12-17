@@ -10,7 +10,7 @@ export default function Services() {
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
 
 <h1 class="h1-text">
-Team Members
+People
 </h1>
 <div class="container">
    <div class="box1">
@@ -42,7 +42,7 @@ Team Members
     </div>
     <div class="content">
       <img src="https://i0.wp.com/language.artpark.in/wp-content/uploads/2022/12/image7.png?fit=300%2C270&ssl=1" alt=""/>
-      <strong>Prof Prasanta Kumar Ghosh</strong>
+      <strong>Prof. Prasanta Kumar Ghosh</strong>
       <p>Project Investigator</p>
 
     </div>
@@ -61,7 +61,7 @@ Team Members
     <div class="content">
       <img src="https://i0.wp.com/language.artpark.in/wp-content/uploads/2022/12/image6.jpg?fit=415%2C415&ssl=1" alt=""/>
       <strong>Raghu Dharmaraju</strong>
-      <p>Project Investigator</p>
+      <p>ARTPARK</p>
      
     </div>
     <div class="btn">
@@ -74,6 +74,9 @@ Team Members
   </div>
   
 </div>
+<h1 class="h1-text">
+Partners
+</h1>
 <div class = "container">
 <div class="box">
     <div class="top-bar"></div>
