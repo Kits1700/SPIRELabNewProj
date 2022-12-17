@@ -45,7 +45,10 @@ languages.
 
 The region-based collection will capture the true speech diversity in the country and will ultimately result in models which are more capable of handling ground realities such as data collection, curation, developing speech and language technologies (e.g., for automatic speech recognition, speech to speech translation, text to speech), and delivering solutions powered by open data, applications, and services.
 
+
+
       </p>
+      <p>Google LLC is funding the Project Vaani.</p>
     <br>
     </br>
  

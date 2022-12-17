@@ -191,7 +191,16 @@ function Navbar() {
             
           
           
+            <li className='nav-item'>
+              <Link
+                to='/media'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Media
+              </Link>
            
+            </li>
           
             <li className='nav-item'>
               <Link

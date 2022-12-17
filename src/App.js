@@ -10,6 +10,7 @@ import Part from './components/pages/Part';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
 import About1 from './components/pages/About1';
+import Media from './components/pages/Media';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path='/team' component={Services} />
           <Route path='/data' component={Products} />
           <Route path='/methodology' component={SignUp} />
-         
+          <Route path='/media' component={Media}/>
           <Route path='/contact' component={Contact} />
         </Switch>
       </Router>
