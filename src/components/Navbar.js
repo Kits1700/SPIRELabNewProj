@@ -140,7 +140,7 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               <div class="dropdown">
    <button class="dropbtn">Home</button>
@@ -151,7 +151,35 @@ function Navbar() {
  </div>
 </div>
               </Link>
+            </li> */}   <li className='nav-item'>
+              <Link
+                to='/'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+              Home
+              </Link>
             </li>
+               <li className='nav-item'>
+              <Link
+                to='/about'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+               About
+              </Link>
+            </li>
+              <li className='nav-item'>
+              <Link
+                to='/partners'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+              Partners
+              </Link>
+            </li> 
+          
+          
             <li className='nav-item'>
               <Link
                 to='/data'
@@ -170,6 +198,7 @@ function Navbar() {
                 People
               </Link>
             </li>
+            
             <li className='nav-item'>
               <Link
                 to='/contact'
@@ -178,7 +207,14 @@ function Navbar() {
               >
                 Contact
               </Link>
+           
             </li>
+        
+           
+           
+            
+           
+           
 
           
           </ul>

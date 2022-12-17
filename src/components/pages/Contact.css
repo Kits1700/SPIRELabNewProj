@@ -1,12 +1,31 @@
-iframe{
- margin-left: auto;
- margin-right: auto;
-  opacity: 0.9;
-  display: block;
-  text-align: center;
-  flex-flow: column;
-  align-items: center;
-}
+.contact-form {
+ 
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  padding: 50px;}
+  .contact-form-conainer {
+      padding: 50px !important;
+      @media screen and (max-width: 768px){
+          font-size: 12px !important;
+          margin: 0 20px 0 20px !important;
+          padding: 10px !important;
+          overflow: hidden !important;
+      }
+      @media screen and (min-width: 576px){
+          font-size: 12px !important;
+          margin: 0 20px 0 20px !important;
+          padding: 10px !important;
+          overflow: hidden !important;
+      } 
+      @media screen and (max-width: 576px){
+          font-size: 12px !important;
+          margin: 0 20px 0 20px !important;
+          padding: 10px !important;
+          overflow: hidden !important;
+      }
+  }
 
 .sub{
   font-size: small;
