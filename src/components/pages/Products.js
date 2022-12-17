@@ -37,7 +37,7 @@ export default function Products() {
 <p class = "exlink">
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
-<p class = "exlink">Click <a href ="/var/www/vaani6.com.html/database/data.json ">here </a>to download the json file.</p>
+<p class = "exlink">Click <a href ="/var/www/vaani.com.html/database/data.json ">here </a>to download the json file.</p>
 
 
    
