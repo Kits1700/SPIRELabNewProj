@@ -10,7 +10,7 @@ export default function Contact() {
   
   <div class="container-fluid contact-form">
         <div class="contact-form-container">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvnxBXhOb3d7SrDzuNFsvD3K0tP6iuSPHa9f6y9E2-NubqqQ/viewform?embedded=true" width="500" height="947" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvnxBXhOb3d7SrDzuNFsvD3K0tP6iuSPHa9f6y9E2-NubqqQ/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="10">Loading…</iframe>
   </div>
   </div>
   <p class = "sub">
