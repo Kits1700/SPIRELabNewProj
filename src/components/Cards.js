@@ -32,21 +32,22 @@ function Cards() {
       </br>
       
     <p>
-Project Vaani aims to capture the multilingual speech diversity in India by
-collecting speech data across 773 selected districts in India with the main purpose to develop a national digital public platform for languages to provide universal access to content, i.e., boost the delivery of digital content in all Indic
-languages. 
+    Digital India is marching ahead inexorably. Digital interfaces and communications have become critical for access to information, entertainment, economic opportunities and even essential services such as healthcare. 
+      </p>
+      <p>
+      Project Vaani is capturing the true diversity of India’s spoken languages to propel language AI technologies and content for an inclusive Digital India. 
+
 
       </p>
       <p>
-      The collected speech samples will cover linguistic, educational, urban-rural, age, and gender diversity in the population, among potentially other diversity characteristics. This dataset will enable developing speech and language technologies and products for Indic languages with 80K+ speakers. 
+      We expect to create data corpora of over 150,000 hours of speech, part of which will be transcribed in local scripts, while ensuring linguistic, educational, urban-rural, age, and gender diversity (among other potential diversity characteristics). These diligently collected and curated datasets of natural speech and text from about 1 million people across all 773 districts of India is being planned to be open-sourced through platforms like Bhashini (under the National Language Translation Mission, MEITY).
+
+
+
+
       </p>
       <p>
-      VaaniData will be open sourced through platforms such as Github and Bhashini, India’s national language mission . 
-
-The region-based collection will capture the true speech diversity in the country and will ultimately result in models which are more capable of handling ground realities such as data collection, curation, developing speech and language technologies (e.g., for automatic speech recognition, speech to speech translation, text to speech), and delivering solutions powered by open data, applications, and services.
-
-
-
+      This will boost the development of technologies such as automatic speech recognition (ASR), speech to speech translation (SST), and natural language understanding (NLU) that reflect the ground realities of how Indians speak.
       </p>
       <p>Google LLC is funding the Project Vaani.</p>
     <br>
