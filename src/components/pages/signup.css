@@ -619,6 +619,7 @@ transform:  translateY(8vw);
 
 
 }
+
 /* .down-arrow1 {
    position: fixed;
    top: calc(100vh - 240px);
@@ -733,3 +734,10 @@ transform:  translateY(8vw);
    }
  }
  */
+.arrowclass{
+   margin-left: 10.5%;
+   margin-top: 10%;
+   
+   display:-webkit-flex;
+   
+}
