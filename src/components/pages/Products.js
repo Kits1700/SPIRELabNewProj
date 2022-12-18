@@ -506,7 +506,7 @@ export default function Products() {
   <td>5.982</td>
   <td>58</td>
   </tr>
- =
+
   <tr>
     <td>Uttarkashi</td>
     <td>2.236</td>
