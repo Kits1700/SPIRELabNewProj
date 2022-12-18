@@ -44,26 +44,122 @@ export default function Products() {
   </tr>
   <tr >
   <td>Araria</td>
+  <td>4.376</td>
+  <td>33</td>
   </tr>
   <tr >
-   <td>Begusarai</td>
+  <td>Begusara</td>
+   <td>0.036</td>
+   <td>3</td>
   </tr>
   <tr>
-    <td>Darbhanga</td>
+  <td>Begusarai</td>
+    <td>3.690</td>
+    <td>100</td>
   </tr>
   <tr>
-  <td>Gopalganj </td>
+  <td>Darbhang</td>
+  <td>0.024</td>
+  <td>1</td>
   </tr>
   <tr>
-<td>Jahanabad</td>
+<td>Darbhanga</td>
+<td>1.053</td>
+<td>6</td>
   </tr>
   <tr>
-    <td>Jamui</td>
+    <td>EastCham</td>
+    <td>0.010</td>
+    <td>1</td>
   </tr>
   <tr>
     <td>
-    Sitamarhi
+    EastChamparan
     </td>
+    <td>4.908</td>
+    <td>56</td>
+  </tr>
+  <tr>
+    <td>Gopalgan</td>
+    <td>4.910</td>
+    <td>41</td>
+  </tr>
+  <tr>
+    <td>Gopalganj</td>
+    <td>3.343</td>
+    <td>37</td>
+  </tr>
+  <tr>
+    <td>Jahanabad</td>
+    <td>0.529</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Jamui</td>
+    <td>1.837</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Kishanga</td>
+    <td>4.122</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Kishanganj</td>
+    <td>0.805</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Muzaffar</td>
+    <td>0.021</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Muzaffarpur</td>
+    <td>2.182</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Purnia</td>
+    <td>1.211</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Samastip</td>
+    <td>3.484</td>
+    <td>34</td>
+  </tr>
+ 
+   <tr>
+    <td>Samastipur</td>
+    <td>4.351</td>
+    <td>39</td>
+  </tr>
+  <tr>  
+    <td>Saran</td>
+     <td>0.671</td>
+    <td>32</td></tr>
+  
+ 
+  <tr>
+    <td>Sitamarh</td>
+    <td>0.808</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Sitamarhi</td>
+    <td>1.444</td>
+    <td>72</td>
+  </tr>
+  <tr>
+    <td>Supaul</td>
+    <td>0.408</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Vaishali</td>
+    <td>0.117</td>
+    <td>8</td>
   </tr>
 </table> 
 
@@ -80,28 +176,34 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Aurangabad</td>
+  <td>0.119</td>
+  <td>5</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Dhule</td>
+   <td>0.691</td>
+   <td>5</td>
   </tr>
   <tr>
-    <td>Darbhanga</td>
+   
   </tr>
   <tr>
-  <td>Gopalganj </td>
+  <td>Nagpur</td>
+  <td>3.996</td>
+  <td>33</td>
   </tr>
   <tr>
-<td>Jahanabad</td>
+<td>Pune</td>
+<td>0.993</td>
+<td>9</td>
   </tr>
   <tr>
-    <td>Jamui</td>
+    <td>Solapur</td>
+    <td>0.602</td>
+    <td>10</td>
   </tr>
-  <tr>
-    <td>
-    Sitamarhi
-    </td>
-  </tr>
+
 </table> 
 <br>
 </br>
@@ -116,27 +218,46 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Balrampur</td>
+  <td>0.003</td>
+  <td>5</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Bastar</td>
+   <td>0.166</td>
+   <td>1</td>
   </tr>
   <tr>
-    <td>Darbhanga</td>
+    <td>Bilaspur</td>
+    <td>5.218</td>
+    <td>111</td>
   </tr>
   <tr>
-  <td>Gopalganj </td>
+  <td>Jashpur</td>
+  <td>2.845</td>
+  <td>19</td>
   </tr>
   <tr>
-<td>Jahanabad</td>
+<td>Kabirdha</td>
+<td>0.037</td>
+<td>1</td>
   </tr>
   <tr>
-    <td>Jamui</td>
+    <td>Raigarh</td>
+    <td>2.116</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>
-    Sitamarhi
+    Rajnandgaon
     </td>
+    <td>0.216</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Sarguja</td>
+    <td>0.156</td>
+    <td>3</td>
   </tr>
 </table> 
 <br>
@@ -151,28 +272,52 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Belgaum</td>
+  <td>1.146</td>
+  <td>11</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Bijapur</td>
+   <td>0.408</td>
+   <td>7</td>
   </tr>
   <tr>
-    <td>Darbhanga</td>
+    <td>Chamrajn</td>
+    <td>3.683</td>
+    <td>29</td>
   </tr>
   <tr>
-  <td>Gopalganj </td>
+  <td>Chamrajnagar</td>
+  <td>0.064</td>
+  <td>2</td>
   </tr>
   <tr>
-<td>Jahanabad</td>
+<td>Dakshin Karnataka</td>
+<td>0.477</td>
+<td>6</td>
   </tr>
   <tr>
-    <td>Jamui</td>
+    <td>Dharwad</td>
+    <td>5.142</td>
+    <td>51</td>
   </tr>
   <tr>
     <td>
-    Sitamarhi
+    Gulbarga
     </td>
-  </tr>
+    <td>2.021</td>
+    <td>15</td>
+      </tr>
+      <tr>
+        <td>Mysore</td>
+        <td>0.769</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>Shimoga</td>
+        <td>3.802</td>
+        <td>49</td>
+      </tr>
 </table> 
 <br>
 </br>
@@ -186,27 +331,63 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Budaun</td>
+  <td>2.188</td>
+  <td>58</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Deoria</td>
+   <td>3.123</td>
+   <td>82</td>
   </tr>
   <tr>
-    <td>Darbhanga</td>
+    <td>Etah</td>
+    <td>1.377</td>
+    <td>10</td>
   </tr>
   <tr>
-  <td>Gopalganj </td>
+  <td>Ghazipur</td>
+  <td>0.852</td>
+  <td>17</td>
   </tr>
   <tr>
-<td>Jahanabad</td>
+<td>Gorakhpur</td>
+<td>1.374</td>
+<td>35</td>
   </tr>
   <tr>
-    <td>Jamui</td>
+    <td>Hamirpur</td>
+    <td>2.677</td>
+    <td>38</td>
   </tr>
   <tr>
     <td>
-    Sitamarhi
+    Jalaun
     </td>
+    <td>
+      0.196
+    </td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>JyotibaP</td>
+    <td>4.020</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td>JyotibaPhuleNagar</td>
+    <td>1.013</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Muzzaffarnagar</td>
+    <td>2.544</td>
+    <td>91</td>
+  </tr>
+  <tr>
+    <td>Varanasi</td>
+    <td>2.461</td>
+    <td>25</td>
   </tr>
 </table> 
 <br>
@@ -221,28 +402,20 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Chittoor</td>
+  <td>0.020</td>
+  <td>1</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Vishakapatnam</td>
+   <td>0.008</td>
+   <td>1</td>
   </tr>
-  <tr>
-    <td>Darbhanga</td>
-  </tr>
-  <tr>
-  <td>Gopalganj </td>
-  </tr>
-  <tr>
-<td>Jahanabad</td>
-  </tr>
-  <tr>
-    <td>Jamui</td>
-  </tr>
-  <tr>
-    <td>
-    Sitamarhi
-    </td>
-  </tr>
+  
+ 
+ 
+ 
+  
 </table> 
 <br>
 </br>
@@ -256,27 +429,15 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Churu</td>
+  <td>5.031</td>
+  <td>42</td>
   </tr>
+ 
   <tr>
-   <td>Begusarai</td>
-  </tr>
-  <tr>
-    <td>Darbhanga</td>
-  </tr>
-  <tr>
-  <td>Gopalganj </td>
-  </tr>
-  <tr>
-<td>Jahanabad</td>
-  </tr>
-  <tr>
-    <td>Jamui</td>
-  </tr>
-  <tr>
-    <td>
-    Sitamarhi
-    </td>
+    <td>Nagaur</td>
+    <td>4.851</td>
+    <td>64</td>
   </tr>
 </table> 
 <br>
@@ -292,27 +453,41 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Dakshin Dinajpur</td>
+  <td>1.094</td>
+  <td>32</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Jalpaiguri</td>
+   <td>0.820</td>
+   <td>32</td>
   </tr>
   <tr>
-    <td>Darbhanga</td>
+    <td>Jhargram</td>
+    <td>0.870</td>
+    <td>50</td>
   </tr>
   <tr>
-  <td>Gopalganj </td>
+  <td>Kolkata</td>
+  <td>6.674</td>
+  <td>89</td>
   </tr>
   <tr>
-<td>Jahanabad</td>
+<td>North24P</td>
+<td>0.407</td>
+<td>6</td>
   </tr>
   <tr>
-    <td>Jamui</td>
+    <td>North24Parganas</td>
+    <td>2.842</td>
+    <td>63</td>
   </tr>
   <tr>
     <td>
-    Sitamarhi
+    Paschim Medinipur
     </td>
+    <td>1.323</td>
+    <td>63</td>
   </tr>
 </table> 
 <br>
@@ -329,28 +504,20 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Karimnagar</td>
+  <td>0.173</td>
+  <td>4</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Nalgonda</td>
+   <td>1.417</td>
+   <td>12</td>
   </tr>
-  <tr>
-    <td>Darbhanga</td>
-  </tr>
-  <tr>
-  <td>Gopalganj </td>
-  </tr>
-  <tr>
-<td>Jahanabad</td>
-  </tr>
-  <tr>
-    <td>Jamui</td>
-  </tr>
-  <tr>
-    <td>
-    Sitamarhi
-    </td>
-  </tr>
+  
+ 
+ 
+ 
+ 
 </table> 
 
 <br>
@@ -367,28 +534,11 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>NoSoGoa</td>
+  <td>0.212</td>
+  <td>2</td>
   </tr>
-  <tr>
-   <td>Begusarai</td>
-  </tr>
-  <tr>
-    <td>Darbhanga</td>
-  </tr>
-  <tr>
-  <td>Gopalganj </td>
-  </tr>
-  <tr>
-<td>Jahanabad</td>
-  </tr>
-  <tr>
-    <td>Jamui</td>
-  </tr>
-  <tr>
-    <td>
-    Sitamarhi
-    </td>
-  </tr>
+  
 </table> 
 <br></br>
 <img src = "/images/uttarakhand05s.gif" width="250" height ="250"></img>
@@ -401,28 +551,25 @@ export default function Products() {
     <th>No. of Speakers</th>
   </tr>
   <tr>
-  <td>Araria</td>
+  <td>Tehri Garhwal</td>
+  <td>5.982</td>
+  <td>58</td>
   </tr>
   <tr>
-   <td>Begusarai</td>
+   <td>Uttarkas</td>
+   <td>0.282</td>
+   <td>2</td>
   </tr>
   <tr>
-    <td>Darbhanga</td>
+    <td>Uttarkashi</td>
+    <td>1.954</td>
+    <td>27</td>
   </tr>
-  <tr>
-  <td>Gopalganj </td>
-  </tr>
-  <tr>
-<td>Jahanabad</td>
-  </tr>
-  <tr>
-    <td>Jamui</td>
-  </tr>
-  <tr>
-    <td>
-    Sitamarhi
-    </td>
-  </tr>
+ 
+ 
+ 
+   
+  
 </table> 
 <br></br>
 
