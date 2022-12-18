@@ -138,7 +138,7 @@ export default function Products() {
   <td>33</td>
   </tr>
   <tr >
-  <td>Begusara</td>
+  <td>Begusarai</td>
    <td>3.726</td>
    <td>103</td>
   </tr>
@@ -150,7 +150,7 @@ export default function Products() {
   </tr>
 <tr>
     <td>
-    EastChamparan
+    East Champaran
     </td>
     <td>4.918</td>
     <td>57</td>
@@ -162,7 +162,7 @@ export default function Products() {
     <td>78</td>
   </tr>
   <tr>
-    <td>Jahanabad</td>
+    <td>Jehanabad</td>
     <td>0.529</td>
     <td>3</td>
   </tr>
@@ -172,7 +172,7 @@ export default function Products() {
     <td>18</td>
   </tr>
   <tr>
-    <td>Kishanga</td>
+    <td>Kishanganj</td>
     <td>4.122</td>
     <td>28</td>
   </tr>
@@ -297,7 +297,7 @@ export default function Products() {
   <td>19</td>
   </tr>
   <tr>
-<td>Kabirdha</td>
+<td>Kabirdham</td>
 <td>0.037</td>
 <td>1</td>
   </tr>
@@ -314,7 +314,7 @@ export default function Products() {
     <td>2</td>
   </tr>
   <tr>
-    <td>Sarguja</td>
+    <td>Surguja</td>
     <td>0.156</td>
     <td>3</td>
   </tr>
@@ -349,7 +349,7 @@ export default function Products() {
   <td>31</td>
   </tr>
   <tr>
-<td>Dakshin Karnataka</td>
+<td>Dakshin Kannada</td>
 <td>0.477</td>
 <td>6</td>
   </tr>
@@ -429,7 +429,7 @@ export default function Products() {
     <td>6</td>
   </tr>
   <tr>
-    <td>JyotibaPhuleNagar</td>
+    <td>Jyotiba Phule Nagar</td>
     <td>5.033</td>
     <td>36</td>
   </tr>
@@ -533,7 +533,7 @@ export default function Products() {
   </tr>
   
   <tr>
-    <td>North24Parganas</td>
+    <td>North 24 Parganas</td>
     <td>3.249</td>
     <td>69</td>
   </tr>
@@ -592,7 +592,7 @@ export default function Products() {
     <th>Speaker Count</th>
   </tr>
   <tr>
-  <td>NoSoGoa</td>
+  <td>North Goa</td>
   <td>0.212</td>
   <td>2</td>
   </tr>

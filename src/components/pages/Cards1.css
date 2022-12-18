@@ -172,6 +172,14 @@ a{
       margin-left: 10%;
     }
   }
+
+  .lin{
+    margin-left: 10.5%;
+    font-size: large;
+    color: #141414;
+    margin-bottom: 5%;
+  }
+
   @media screen and (max-width: 600px) {
     
     .lin{
@@ -179,13 +187,7 @@ a{
         justify-content: center;
         display: block;
         
-        margin-left: 12.5%;
-        transform: translateX(3vw);
+        margin-left: 22.5%;
+   
       }
     }
-  .lin{
-    margin-left: 12.5%;
-    font-size: large;
-    color: #141414;
-    margin-bottom: 5%;
-  }

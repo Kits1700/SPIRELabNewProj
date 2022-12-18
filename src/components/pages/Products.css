@@ -73,10 +73,10 @@
   }
 table {
   border-collapse: collapse;
-  width: 50%;
-  margin-left: 25%;
-  padding-left: 30%;
-  transform: translateX(-2vw);
+  border-spacing: 0;
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid #ddd;
   /* margin-bottom: 70x;
   margin-left: 5%;
   margin-right: 15%; */
@@ -87,6 +87,8 @@ th, td {
   padding: 8px;
   text-align: center;
   border-bottom: 1px solid #ddd;
+
+
   
   
   
@@ -145,17 +147,3 @@ h2{
 .last{
   margin-bottom: 10px;
 }
-@media screen and (max-width: 600px) {
-    
-  table{
-      
- margin-right: 40%;
- transform: translateX(-11vw);
-    }
-    .con{
-      transform: translateX(1.01vw);
-     }
-  }
-  .con{
-   transform: translateX(1.01vw);
-  }
