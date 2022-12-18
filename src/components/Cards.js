@@ -38,7 +38,8 @@ function Cards() {
  
       </p>
       <p>
-      Project Vaani is capturing the true diversity of India’s spoken languages to propel language AI technologies and content for an inclusive Digital India. 
+      Project Vaani, by IISc and ARTPARK, is capturing the true diversity of India’s spoken languages to propel language AI technologies and content for an inclusive Digital India.
+
 
 
 
@@ -58,7 +59,7 @@ function Cards() {
       This will boost the development of technologies such as automatic speech recognition (ASR), speech to speech translation (SST), and natural language understanding (NLU) that reflect the ground realities of how Indians speak.
 
       </p>
-      <p>Google LLC is funding the Project Vaani.
+      <p>Google is funding the Project Vaani.
 </p>
     <br>
     </br>

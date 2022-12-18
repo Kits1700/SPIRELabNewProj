@@ -42,14 +42,12 @@ People
     </div>
     <div class="content">
       <img src="https://i0.wp.com/language.artpark.in/wp-content/uploads/2022/12/image7.png?fit=300%2C270&ssl=1" alt=""/>
-      <strong>Prof. Prasanta Kumar Ghosh</strong>
-      <p>Project Investigator</p>
+      <a href="https://eecs.iisc.ac.in/people/prasanta-kumar-ghosh/"><strong>Prof. Prasanta Kumar Ghosh</strong></a>
+      <p>Project Investigator </p><p>EE, IISc, Bangalore</p>
+    
 
     </div>
-    <div class="btn">
-
-      <a href="https://eecs.iisc.ac.in/people/prasanta-kumar-ghosh/"><i class="fa fa-eye" aria-hidden="true"></i>View Profile</a>
-    </div>
+   
   </div>
   <div class="box">
     <div class="top-bar"></div>
@@ -60,14 +58,11 @@ People
     </div>
     <div class="content">
       <img class ="lastimg"src="https://i0.wp.com/language.artpark.in/wp-content/uploads/2022/12/image6.jpg?fit=415%2C415&ssl=1" alt=""/>
-      <strong>Raghu Dharmaraju</strong>
-      <p>ARTPARK</p>
+      <a href="https://www.linkedin.com/in/raghuramd/"><strong>Raghu Dharmaraju</strong></a>
+      <p>President</p><p> ARTPARK</p>
      
     </div>
-    <div class="btn">
-     
-      <a href="https://www.linkedin.com/in/raghuramd/"><i class="fa fa-eye" aria-hidden="true"></i>View Profile</a>
-    </div>
+    
   </div>
   <div class="box4">
   
@@ -87,13 +82,14 @@ Partners
     </div>
     <div class="content">
       <img src="/images/APimg.jpeg" alt=""/>
-      <strong>ARTPARK</strong>
-      <p>Partner</p>
+      <br></br>
+      <a href="https://www.artpark.in"><strong>ARTPARK</strong></a>
+   
      
     </div>
     <div class="btn">
      
-      <a href="https://www.artpark.in"><i class="fa fa-eye" aria-hidden="true"></i>View Website</a>
+      
     </div>
   </div>
   </div>

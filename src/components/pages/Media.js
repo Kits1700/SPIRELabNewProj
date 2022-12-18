@@ -33,9 +33,16 @@ export default function Media()
  <div class ="para">
       <br>
       </br>
-      <h2>Blog Post</h2>
+      <h2>Blog</h2>
       <br>
       </br>
+      <div class = "titlemain">
+      <h2>Why capturing the language landscape of India is important?</h2>
+      <br></br>
+    <small>Prof. Prasanta Kumar Ghosh, Raghu Dharmaraju | 18-12-2022</small>
+      </div>
+      
+      <br></br>
   <p>
   As the second wave of Covid ravaged Bengaluru, Narsamma, a domestic worker in her 40s, was anxious to get her vaccination. Though she had a smartphone, her employer had to get her an appointment through CoWin. She could not type in any of the three languages – Kannada, Tamil, Telugu – in which she communicated verbally ‘well enough’ with her employers. She could barely read or write and feared digital interfaces. 
 

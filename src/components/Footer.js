@@ -14,29 +14,14 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <a href ='https://iisc.ac.in/' className='social-logo'>
-              IISC | SPIRE LAB | ARTPARK
-              </a>
-            
+            <div className='social-logo'>
+              <a className='social-logo' href ="https://iisc.ac.in">IISc |&nbsp; </a>  SPIRE Lab &nbsp; <a className='social-logo' href ="https://www.artpark.in"> |  ARTPARK</a>
+              
+            </div>
           </div>
           <small class='website-rights'>VAANI © 2022</small>
           <div class='social-icons'>
-            {/* <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link> */}
-            {/* <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link> */}
+           
             {/* <Link
               class='social-icon-link youtube'
               to='/'

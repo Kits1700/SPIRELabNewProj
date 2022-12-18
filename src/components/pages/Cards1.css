@@ -126,7 +126,7 @@ a{
 .content p{
   font-size: 0.9rem;
   color: #7a7a7a;
-  margin: 4px 0px 10px 0px;
+  margin: 0px;
   cursor: pointer;
 }
 .content p:hover{
