@@ -80,7 +80,7 @@ export default function Media()
 
   </p>
   <p>
-  Recognizing this, the Ministry of Electronics & Information Technology (MEITY) has launched the National Language Translation Mission and Bhashini – a digital platform for language data and AI.
+  Recognizing this, the Ministry of Electronics & Information Technology (MeiTY) has launched the National Language Translation Mission and Bhashini – a digital platform for language data and AI.
 
 
 

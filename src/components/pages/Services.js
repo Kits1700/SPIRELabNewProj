@@ -72,27 +72,22 @@ People
 <h1 class="h1-text">
 Partners
 </h1>
-<div class = "container">
-<div class="box">
-    <div class="top-bar"></div>
-    <div class="top">
-     
-      
-     
-    </div>
-    <div class="content">
-      <img src="/images/APimg.jpeg" alt=""/>
+
+
+  
+   <div class = "last">
+   <img src="/images/al.png" alt=""/>
       <br></br>
-      <a href="https://www.artpark.in"><strong>ARTPARK</strong></a>
+      <a  class = "lin"href="https://www.artpark.in"><u>https://www.artpark.in</u></a>
+   </div>
+     <br>
+     </br>
    
      
-    </div>
-    <div class="btn">
-     
-      
-    </div>
-  </div>
-  </div>
+ 
+   
+  
+ 
   <br></br>
   <Footer />
   </>);

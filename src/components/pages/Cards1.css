@@ -155,7 +155,34 @@ a{
   background-color: #507bfc;
   transition: all ease 0.5s;
 }
-
-.lastimage{
-  border-radius: 100px;
+.last{
+  margin-left: 40%;
+  margin-top: 5%;
+  transform: translateY(-3vw);
 }
+@media screen and (max-width: 600px) {
+    
+  .last{
+      font-size: 10px;
+      justify-content: center;
+      display: block;
+      font-weight: lighter;
+      margin-left: 25%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    
+    .lin{
+        font-size: 8px;
+        justify-content: center;
+        display: block;
+        
+        margin-left: 30%;
+        transform: translateX(3vw);
+      }
+    }
+  .lin{
+    margin-left: 8.4%;
+    font-size: large;
+    color: #141414;
+  }
