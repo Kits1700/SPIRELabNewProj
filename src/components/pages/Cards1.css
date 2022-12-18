@@ -105,9 +105,9 @@ a{
 
 
 .content img{
-  width: 90px;
-  height: 90px;
-  border-radius:100px;
+  width: 190x;
+  height: 190px;
+  /* border-radius:100px; */
   overflow: hidden;
   object-fit: cover;
   object-position: top;
@@ -156,3 +156,6 @@ a{
   transition: all ease 0.5s;
 }
 
+.lastimage{
+  border-radius: 100px;
+}

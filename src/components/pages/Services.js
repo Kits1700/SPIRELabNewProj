@@ -59,7 +59,7 @@ People
 
     </div>
     <div class="content">
-      <img src="https://i0.wp.com/language.artpark.in/wp-content/uploads/2022/12/image6.jpg?fit=415%2C415&ssl=1" alt=""/>
+      <img class ="lastimg"src="https://i0.wp.com/language.artpark.in/wp-content/uploads/2022/12/image6.jpg?fit=415%2C415&ssl=1" alt=""/>
       <strong>Raghu Dharmaraju</strong>
       <p>ARTPARK</p>
      
@@ -86,7 +86,7 @@ Partners
      
     </div>
     <div class="content">
-      <img src="/images/ap.jpeg" alt=""/>
+      <img src="/images/APimg.jpeg" alt=""/>
       <strong>ARTPARK</strong>
       <p>Partner</p>
      

@@ -32,7 +32,7 @@ function HeroSection() {
     <h1>Project Vaani</h1>
     <p>Capturing the language landscape of India  for an inclusive Digital India</p>
   </div>
-  <img src="/images/indiapol.jpg" alt="bubbles from surf" class="hero-image"/> 
+  <img src="/images/indiahome.png" alt="bubbles from surf" class="hero-image"/> 
 </div>
     // <div className='hero-container'>
       

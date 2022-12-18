@@ -41,20 +41,28 @@ export default function Media()
 
 
 
+
   </p>
   <p>
   As ‘digital’ becomes the default mode of accessing even essential services, it is important to note that only about 10% of Indians can speak or write English. Even generous estimates put English communicators at about 400M leaving out 1 Billion Indians. That is why, an inclusive Digital India requires language AI that can understand all Indians. 
 
 
+
+
   </p>
   <p>
   
-Language AI gathered speed in the last decade. Many readers may be regular users of Amazon Alexa or Google Translate. More recently, generative models like GPT-3 have captured the public imagination. But these are unlikely to be the path for Indian languages. 
+
+  Language AI gathered speed in the last decade. Many readers may be regular users of Amazon Alexa or Google Translate. More recently, generative models like GPT-3 have captured the public imagination. But these are unlikely to be the path for Indian languages. 
+
+
 
 
   </p>
   <p>
   It is often said that India has 15 or 22 main languages. But that is an oversimplification. In reality, language varies continuously across geography. It does not change abruptly at state or district borders. What Narsamma, for example, speaks at home sounds like a mix of Kannada and Telugu. 
+
+
 
 
   </p>
@@ -68,13 +76,16 @@ Language AI gathered speed in the last decade. Many readers may be regular users
   Recognizing this, the Ministry of Electronics & Information Technology (MEITY) has launched the National Language Translation Mission and Bhashini – a digital platform for language data and AI.
 
 
+
   </p>
   <p>
-  IISc and ARTPARK have launched Project Vaani, with initial support from Google, to collect and curate language data that reflect how 100s of millions like Narsamma really speak. These datasets are being planned to be open-sourced in Bhashini and other platforms.
+  IISc and ARTPARK have launched Project Vaani, with initial support from Google, to collect and curate language data that reflect how 100s of millions like Narsamma really speak. The current version of the Vaani data is open sourced <a href = "vaani.iisc.ac.in/data">here</a>. Going forward, we hope to open-source in Bhashini and other platforms.
+
 
   </p>
   <p>
   In the coming months, we will launch challenges for researchers as well as application builders. Watch this space!
+
 
 
 

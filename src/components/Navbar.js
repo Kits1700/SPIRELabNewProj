@@ -132,7 +132,14 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+    
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <div class="log">
+            <img src="/images/iisc.ico" width="34px" height="32px"/> 
+            </div>
+         
+          {/* <img src="/images/iisc.ico" width="33px" height="30px"/> */}
+          
             Vaani
             
           </Link>

@@ -115,10 +115,14 @@
   }
 
   .navbar-logo {
+  
     position: absolute;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
+    margin: 6px;
+      font-size: 25px;
+      cursor: pointer;
   }
 
   .menu-icon {
@@ -324,4 +328,8 @@
 
 @media all and (min-width: 960px) {
     
+}
+.log{
+  margin-right: 6%;
+  margin-bottom: 0.01%;
 }

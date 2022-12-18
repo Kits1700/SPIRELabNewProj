@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../pages/Products.css'
 import Cards from '../Cards';
 import HeroSection from '../HeroSection';
@@ -6,33 +6,66 @@ import HS1 from '../HS1';
 import Footer from '../Footer';
 import '../pages/part1.css'
 export default function Products() {
+ 
+  
+
+  
+//   document
+//   .getElementById('target')
+//   .addEventListener('change', function () {
+//     'use strict';
+//     var vis = document.querySelector('.vis'),   
+//       target = document.getElementById(this.value);
+//     if (vis !== null) {
+//       vis.className = 'inv';
+//     }
+//     if (target !== null ) {
+//       target.className = 'vis';
+//     }
+// });
   return (<>
+
+
   <div class="tabs">
   <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" />
   <label for="tab1" class="tabs__label">Data Summary</label>
   <div class="tabs__content">
-  <HS1 />
+  <h2>Karnataka</h2>
+  <table>
+  <tr>
+    <th>District</th>
+    <th>Duration(hrs)</th>
+    <th>No. of Speakers</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+
+  <Footer />
    
   </div>
   <input type="radio" class="tabs__radio" name="tabs-example" id="tab2" checked/>
   <label for="tab2" class="tabs__label">Data Download</label>
   <div class="tabs__content">
-  
-   <br>
-   </br>
-   <p class = "extlink">
-  
-      </p>
-    {/* <a href='https://www.bhashini.gov.in/en/'>
-    <div class="ca">
-       
-	  <img class = "one" src="/images/Bhas.png"  width="300" height="300" alt="img" />
-	  <div class="ta">
-	  
-	  </div>
-  </div>
-  
-  </a> */}
+
 
 <p class = "exlink">
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
@@ -44,7 +77,7 @@ The data from Project Vaani is available under license: <a href = "https://creat
 
 
    
-  <br>
+  {/* <br>
 </br>
 <br>
 </br>
@@ -83,7 +116,7 @@ The data from Project Vaani is available under license: <a href = "https://creat
 <br>
 </br>
 <br>
-</br>
+</br> */}
  <Footer />
   </div>
 </div>

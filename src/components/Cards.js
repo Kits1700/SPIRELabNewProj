@@ -33,6 +33,8 @@ function Cards() {
       
     <p>
     Digital India is marching ahead inexorably. Digital interfaces and communications have become critical for access to information, entertainment, economic opportunities and even essential services such as healthcare. 
+
+
  
       </p>
       <p>
@@ -40,9 +42,12 @@ function Cards() {
 
 
 
+
       </p>
       <p>
-      We expect to create data corpora of over 150,000 hours of speech, part of which will be transcribed in local scripts, while ensuring linguistic, educational, urban-rural, age, and gender diversity (among other potential diversity characteristics). These diligently collected and curated datasets of natural speech and text from about 1 million people across all 773 districts of India is being planned to be open-sourced through platforms like Bhashini (under the National Language Translation Mission, MEITY). The first batch of data is available <a href= "http://vaani.iisc.ac.in/data">here.</a></p>
+      We expect to create data corpora of over 150,000 hours of speech, part of which will be transcribed in local scripts, while ensuring linguistic, educational, urban-rural, age, and gender diversity (among other potential diversity characteristics). These diligently collected and curated datasets of natural speech and text from about 1 million people across all 773 districts of India will be open-sourced. The current version of the data is open-sourced <a href = "vaani.iisc.ac.in/data">here</a>. Going forward, we hope to open source through platforms like Bhashini (under the National Language Translation Mission, MEITY). 
+
+</p>
 
 
 
@@ -51,8 +56,10 @@ function Cards() {
    
       <p>
       This will boost the development of technologies such as automatic speech recognition (ASR), speech to speech translation (SST), and natural language understanding (NLU) that reflect the ground realities of how Indians speak.
+
       </p>
-      <p>Google LLC is funding the Project Vaani.</p>
+      <p>Google LLC is funding the Project Vaani.
+</p>
     <br>
     </br>
  
