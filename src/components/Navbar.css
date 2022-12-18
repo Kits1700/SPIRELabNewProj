@@ -24,7 +24,7 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
 }
@@ -329,7 +329,11 @@
 @media all and (min-width: 960px) {
     
 }
-.log{
-  margin-right: 6%;
-  margin-bottom: 0.01%;
+.navbar-logo .log{
+margin-right: 80%;
+margin-bottom: 0.01%;
+transform: translateX(-6vw);
+
+
+
 }

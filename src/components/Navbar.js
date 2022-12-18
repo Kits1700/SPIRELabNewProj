@@ -132,17 +132,25 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+     
     
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <div class="log">
-            <img src="/images/IISCL.png" width="34px" height="32px"/> 
-            </div>
+          <div className='navbar-logo' onClick={closeMobileMenu}>
+           
          
           {/* <img src="/images/iisc.ico" width="33px" height="30px"/> */}
           
-            Vaani
+          <div class="log">
+          <a href = "https://iisc.ac.in">
+          <img src="/images/IISCL.png" width="37px" height="35px"/> 
+          </a>
+      
+           
+         </div>
+         Vaani
+            </div>
+          
             
-          </Link>
+        
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

@@ -39,8 +39,8 @@ export default function Products() {
   <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Total Data Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr >
   <td>Araria</td>
@@ -49,45 +49,27 @@ export default function Products() {
   </tr>
   <tr >
   <td>Begusara</td>
-   <td>0.036</td>
-   <td>3</td>
+   <td>3.726</td>
+   <td>103</td>
   </tr>
+ 
   <tr>
-  <td>Begusarai</td>
-    <td>3.690</td>
-    <td>100</td>
+  <td>Darbhanga</td>
+  <td>1.077</td>
+  <td>7</td>
   </tr>
-  <tr>
-  <td>Darbhang</td>
-  <td>0.024</td>
-  <td>1</td>
-  </tr>
-  <tr>
-<td>Darbhanga</td>
-<td>1.053</td>
-<td>6</td>
-  </tr>
-  <tr>
-    <td>EastCham</td>
-    <td>0.010</td>
-    <td>1</td>
-  </tr>
-  <tr>
+<tr>
     <td>
     EastChamparan
     </td>
-    <td>4.908</td>
-    <td>56</td>
+    <td>4.918</td>
+    <td>57</td>
   </tr>
-  <tr>
-    <td>Gopalgan</td>
-    <td>4.910</td>
-    <td>41</td>
-  </tr>
+ 
   <tr>
     <td>Gopalganj</td>
-    <td>3.343</td>
-    <td>37</td>
+    <td>8.253</td>
+    <td>78</td>
   </tr>
   <tr>
     <td>Jahanabad</td>
@@ -105,35 +87,21 @@ export default function Products() {
     <td>28</td>
   </tr>
   <tr>
-    <td>Kishanganj</td>
-    <td>0.805</td>
-    <td>22</td>
-  </tr>
-  <tr>
-    <td>Muzaffar</td>
-    <td>0.021</td>
-    <td>4</td>
-  </tr>
-  <tr>
     <td>Muzaffarpur</td>
-    <td>2.182</td>
-    <td>22</td>
+    <td>2.203</td>
+    <td>72</td>
   </tr>
+
   <tr>
     <td>Purnia</td>
     <td>1.211</td>
     <td>12</td>
   </tr>
-  <tr>
-    <td>Samastip</td>
-    <td>3.484</td>
-    <td>34</td>
-  </tr>
  
    <tr>
     <td>Samastipur</td>
-    <td>4.351</td>
-    <td>39</td>
+    <td>7.835</td>
+    <td>73</td>
   </tr>
   <tr>  
     <td>Saran</td>
@@ -141,15 +109,11 @@ export default function Products() {
     <td>32</td></tr>
   
  
-  <tr>
-    <td>Sitamarh</td>
-    <td>0.808</td>
-    <td>23</td>
-  </tr>
+ 
   <tr>
     <td>Sitamarhi</td>
-    <td>1.444</td>
-    <td>72</td>
+    <td>2.252</td>
+    <td>95</td>
   </tr>
   <tr>
     <td>Supaul</td>
@@ -281,15 +245,11 @@ export default function Products() {
    <td>0.408</td>
    <td>7</td>
   </tr>
-  <tr>
-    <td>Chamrajn</td>
-    <td>3.683</td>
-    <td>29</td>
-  </tr>
+  
   <tr>
   <td>Chamrajnagar</td>
-  <td>0.064</td>
-  <td>2</td>
+  <td>3.747</td>
+  <td>31</td>
   </tr>
   <tr>
 <td>Dakshin Karnataka</td>
@@ -370,14 +330,9 @@ export default function Products() {
     <td>6</td>
   </tr>
   <tr>
-    <td>JyotibaP</td>
-    <td>4.020</td>
-    <td>29</td>
-  </tr>
-  <tr>
     <td>JyotibaPhuleNagar</td>
-    <td>1.013</td>
-    <td>7</td>
+    <td>5.033</td>
+    <td>36</td>
   </tr>
   <tr>
     <td>Muzzaffarnagar</td>
@@ -472,15 +427,11 @@ export default function Products() {
   <td>6.674</td>
   <td>89</td>
   </tr>
-  <tr>
-<td>North24P</td>
-<td>0.407</td>
-<td>6</td>
-  </tr>
+  
   <tr>
     <td>North24Parganas</td>
-    <td>2.842</td>
-    <td>63</td>
+    <td>3.249</td>
+    <td>69</td>
   </tr>
   <tr>
     <td>
@@ -555,15 +506,11 @@ export default function Products() {
   <td>5.982</td>
   <td>58</td>
   </tr>
-  <tr>
-   <td>Uttarkas</td>
-   <td>0.282</td>
-   <td>2</td>
-  </tr>
+ =
   <tr>
     <td>Uttarkashi</td>
-    <td>1.954</td>
-    <td>27</td>
+    <td>2.236</td>
+    <td>29</td>
   </tr>
  
  
