@@ -77,6 +77,8 @@ table {
   width: 80%;
   margin-left: 10%;
   border: 1px solid #ddd;
+  justify-content: center;
+  text-align: center;
   /* margin-bottom: 70x;
   margin-left: 5%;
   margin-right: 15%; */
@@ -146,4 +148,11 @@ h2{
 }
 .last{
   margin-bottom: 10px;
+}
+.agree{
+  font-size:small;
+  font-weight: bold;
+  margin-left: 0%;
+
+  margin-top: 2%;
 }

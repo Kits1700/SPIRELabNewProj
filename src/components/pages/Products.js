@@ -5,10 +5,14 @@ import HeroSection from '../HeroSection';
 import HS1 from '../HS1';
 import Footer from '../Footer';
 import '../pages/part1.css'
+import '../pages/Alerts'
+import Alerts from '../pages/Alerts';
 export default function Products() {
  
   
-
+  function myFunction() {
+    alert("Press a button!");
+  }
   
 //   document
 //   .getElementById('target')
@@ -27,7 +31,6 @@ export default function Products() {
   return (<>
 
 <html>
-
 
 
 
@@ -644,7 +647,10 @@ export default function Products() {
 <p class = "exlink">
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
-<p class = "exlink">Click <a href ="data.json " download onClick="myalert"> here</a> to download the json file to access the data</p>
+
+<p class = "exlink">Click <a href ="data.json" onClick="javascript:window.alert('hi')" download>here</a> to download the json file to access the data(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</p>
+
+
 {/* <a href="/images/img-7/artpark.png" download="img" target='_blank'>
 <button type="button" class="btn btn-success btn-lg btn-block">Download Resume</button>
 </a> */}
