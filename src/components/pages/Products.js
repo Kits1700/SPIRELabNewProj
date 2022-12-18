@@ -37,7 +37,7 @@ export default function Products() {
 <p class = "exlink">
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
-<p class = "exlink">Click <a href ="data.json ">here</a> to download the json file to access the data</p>
+<p class = "exlink">Click <a href ="data.json " download>here</a> to download the json file to access the data</p>
 {/* <a href="/images/img-7/artpark.png" download="img" target='_blank'>
 <button type="button" class="btn btn-success btn-lg btn-block">Download Resume</button>
 </a> */}
