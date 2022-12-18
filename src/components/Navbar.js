@@ -38,7 +38,7 @@ function Navbar() {
           <div class="log">
           <a class = "iisc" href = "https://iisc.ac.in">IISc</a>
           <a class = "art" href = "https://www.artpark.in">ART</a>
-          <img src="/images/flogo.png" width="164px" height="40px"/> 
+          <img src="/images/flogo.png" width="200px" height="40px"/> 
           
       
            

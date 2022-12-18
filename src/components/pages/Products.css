@@ -31,6 +31,7 @@
   .tabs__content h2 {
   margin-left: 0;
   color: #000;
+  font-weight: bold;
   }
   .tabs__content img{
     display: block;
@@ -72,7 +73,10 @@
   }
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
+  margin-left: 25%;
+  padding-left: 30%;
+  transform: translateX(-2vw);
   /* margin-bottom: 70x;
   margin-left: 5%;
   margin-right: 15%; */
@@ -83,8 +87,13 @@ th, td {
   padding: 8px;
   text-align: center;
   border-bottom: 1px solid #ddd;
-  font-weight: normal;
   
+  
+  
+}
+th{
+  font-weight: bold;
+  color:teal;
 }
 
 tr:hover {background-color:gray;}
@@ -136,3 +145,17 @@ h2{
 .last{
   margin-bottom: 10px;
 }
+@media screen and (max-width: 600px) {
+    
+  table{
+      
+ margin-right: 40%;
+ transform: translateX(-11vw);
+    }
+    .con{
+      transform: translateX(1.01vw);
+     }
+  }
+  .con{
+   transform: translateX(1.01vw);
+  }

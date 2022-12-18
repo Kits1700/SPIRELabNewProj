@@ -23,23 +23,113 @@ export default function Products() {
 //       target.className = 'vis';
 //     }
 // });
+
   return (<>
+
+<html>
+
+
+
+
+
+
+
+
+
 
 
   <div class="tabs">
-  <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" />
+  <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked/>
   <label for="tab1" class="tabs__label">Data Summary</label>
   <div class="tabs__content">
+  <br></br>
+    <table class = "con">
+  <tr>
+    <th>Sno.</th>
+    <th>State</th>
+    <th>Navigate there</th>
+  </tr>
+  <tr>
+  <td>1</td>
+  <td>Bihar</td>
+  <td><a href="#bihar">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>2</td>
+   <td>Maharashtra</td>
+   <td><a href="#maha">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>3</td>
+   <td>Chhattisgarh</td>
+   <td><a href="#chh">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>4</td>
+   <td>Karnataka</td>
+   <td><a href="#kar">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>5</td>
+   <td>Uttar Pradesh</td>
+   <td><a href="#up">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>6</td>
+   <td>Andhra Pradesh</td>
+   <td><a href="#ap">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>7</td>
+   <td>Rajasthan</td>
+   <td><a href="#raj">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>8</td>
+   <td>West Bengal</td>
+   <td><a href="#wb">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>9</td>
+   <td>Telangana</td>
+   <td><a href="#tel">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>10</td>
+   <td>Goa</td>
+   <td><a href="#goa">Go to State</a></td>
+  </tr>
+  <tr>
+   <td>11</td>
+   <td>Uttarakhand</td>
+   <td><a href="#uk">Go to State</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+
+ 
+ 
+ 
+  
+</table> 
 <br></br>
-<img src = "/images/bihar.gif" width="250" height ="250"></img>
+
+<div id = "bihar">
+<img  src = "/images/bihar.gif" width="250" height ="250"></img>
 <br></br>
- <h2>Bihar</h2>
+
+ <h2>Bihar(43.54 hours from 621 speakers)</h2>
   <br>
   </br>
   <table>
   <tr>
     <th>District</th>
-    <th>Total Data Duration(hrs)</th>
+    <th>Record Duration(hrs)</th>
     <th>Speaker Count</th>
   </tr>
   <tr >
@@ -129,15 +219,18 @@ export default function Products() {
 
 <br>
 </br>
+</div>
+<div id = "maha">
 <img src = "/images/maha.gif" width="250" height ="250"></img>
 <br>
 </br>
-<h2>Maharashtra</h2>
+
+<h2>Maharashtra(6.4 hours from 62 speakers)</h2>
 <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Aurangabad</td>
@@ -171,15 +264,17 @@ export default function Products() {
 </table> 
 <br>
 </br>
+</div>
+<div id = "chh">
 <img src = "/images/chhattisgarh.gif" width="250" height ="250"></img>
 <br>
 </br>
-<h2>Chhattisgarh</h2>
+<h2>Chhattisgarh(10.76 hourse from 158 speakers)</h2>
 <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Balrampur</td>
@@ -226,14 +321,16 @@ export default function Products() {
 </table> 
 <br>
 </br>
+</div>
+<div id = "kar">
 <img src = "/images/karnataka.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Karnataka</h2>
+<h2>Karnataka(17.51 hours from 187 speakers)</h2>
 <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Belgaum</td>
@@ -281,14 +378,16 @@ export default function Products() {
 </table> 
 <br>
 </br>
+</div>
+<div id = "up">
 <img src = "/images/uttar05s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Uttar Pradesh</h2>
+<h2>Uttar Pradesh(21.82 hours from 398 speakers)</h2>
 <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Budaun</td>
@@ -347,14 +446,16 @@ export default function Products() {
 </table> 
 <br>
 </br>
+</div>
+<div id = "ap">
 <img src = "/images/andhra09s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Andhra Pradesh</h2>
+<h2>Andhra Pradesh(0.028 hours from 2 speakers)</h2>
 <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Chittoor</td>
@@ -372,16 +473,18 @@ export default function Products() {
  
   
 </table> 
+</div>
 <br>
 </br>
+<div id = "raj">
 <img src = "/images/uttar05s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Rajasthan</h2>
+<h2>Rajasthan(9.89 hours from 106 speakers)</h2>
 <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Churu</td>
@@ -397,15 +500,16 @@ export default function Products() {
 </table> 
 <br>
 </br>
-
+</div>
+<div id = "wb">
 <img src = "/images/bengale09s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>West Bengal</h2>
+<h2>West Bengal(14.03 hours from 335 speakers)</h2>
 <table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Dakshin Dinajpur</td>
@@ -441,18 +545,20 @@ export default function Products() {
     <td>63</td>
   </tr>
 </table> 
+<div id ="tel">
 <br>
 </br>
 <img src = "/images/telangana.gif" width="250" height ="250"></img>
 <br>
 </br>
+</div>
 
-<h2>Telangana</h2>
-<table class = "last">
+<h2>Telangana(1.60 hours from 16 speakers)</h2>
+<table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Karimnagar</td>
@@ -470,19 +576,20 @@ export default function Products() {
  
  
 </table> 
-
+</div>
 <br>
 </br>
-<img src = "/images/goa09s.gif" width="250" height ="250"></img>
+<div id = "goa">
+<img id = "goap"src = "/images/goa09s.gif" width="250" height ="250"></img>
 <br>
 </br>
 
-<h2>Goa</h2>
-<table class = "last">
+<h2>Goa(0.212 hours from 2 speakers)</h2>
+<table >
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>NoSoGoa</td>
@@ -491,15 +598,17 @@ export default function Products() {
   </tr>
   
 </table> 
+</div>
 <br></br>
+<div id = "uk">
 <img src = "/images/uttarakhand05s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Uttarakhand</h2>
-<table class = "last">
+<h2>Uttarakhand(8.22 hours from 87 speakers)</h2>
+<table>
   <tr>
     <th>District</th>
-    <th>Duration(hrs)</th>
-    <th>No. of Speakers</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
   <td>Tehri Garhwal</td>
@@ -518,6 +627,7 @@ export default function Products() {
    
   
 </table> 
+</div>
 <br></br>
 
 <br></br>
@@ -526,7 +636,7 @@ export default function Products() {
 
 <br></br>
   </div>
-  <input type="radio" class="tabs__radio" name="tabs-example" id="tab2" checked/>
+  <input type="radio" class="tabs__radio" name="tabs-example" id="tab2" />
   <label for="tab2" class="tabs__label">Data Download</label>
   <div class="tabs__content">
 
@@ -534,7 +644,7 @@ export default function Products() {
 <p class = "exlink">
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
-<p class = "exlink">Click <a href ="data.json " download>here</a> to download the json file to access the data</p>
+<p class = "exlink">Click <a href ="data.json " download onClick="myalert"> here</a> to download the json file to access the data</p>
 {/* <a href="/images/img-7/artpark.png" download="img" target='_blank'>
 <button type="button" class="btn btn-success btn-lg btn-block">Download Resume</button>
 </a> */}
@@ -585,6 +695,6 @@ The data from Project Vaani is available under license: <a href = "https://creat
   </div>
 </div>
 
-
+</html>
   </>);
 }
