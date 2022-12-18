@@ -27,7 +27,23 @@
     font-size: 0.9em;
     display: none;
   }
-  
+    
+  .tabs__content h2 {
+  margin-left: 0;
+  color: #000;
+  }
+  .tabs__content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+     
+  .tabs__content p {
+   
+    transform: translateY(3vw);
+    font-size: large;
+    }
   .tabs__radio:checked + .tabs__label {
     font-weight: bold;
     color:red;
@@ -54,15 +70,69 @@
   .second-col{
     margin-right: 2%;
   }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* margin-bottom: 70x;
+  margin-left: 5%;
+  margin-right: 15%; */
+
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
   
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  tr:hover {background-color: coral;}
+}
+
+tr:hover {background-color:gray;}
+
+.tabs
+{
+	position: relative;
+	clear: both;
+}
+
+.tabs .tab
+{
+	float: left;
+}
+
+.tabs .tab .content
+{
+	position: absolute;
+	background-color: white;
+	left: 0px;
+	width: 100%;
+	border: 1px #000 solid;
+}
+
+.checkboxtab
+{
+	display: none;
+}
+
+.tab label
+{
+	margin-right: 10px;
+}
+
+.checkboxtab:checked ~ label
+{
+	color: #ab70ff;
+	border: 1px #000 solid;
+}
+
+.checkboxtab:checked ~ .content
+{
+	z-index: 1;
+}
+
+h2{
+  font-weight: lighter;
+}
+.last{
+  margin-bottom: 10px;
+}
