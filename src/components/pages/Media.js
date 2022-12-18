@@ -79,7 +79,7 @@ export default function Media()
 
   </p>
   <p>
-  IISc and ARTPARK have launched Project Vaani, with initial support from Google, to collect and curate language data that reflect how 100s of millions like Narsamma really speak. The current version of the Vaani data is open sourced <a href = "https://vaani.iisc.ac.in/data">here</a>. Going forward, we hope to open-source in Bhashini and other platforms.
+  IISc and ARTPARK have launched Project Vaani, with initial support from Google, to collect and curate language data that reflect how 100s of millions like Narsamma really speak. The current version of the Vaani data is open sourced <a href = "data">here</a>. Going forward, we hope to open-source in Bhashini and other platforms.
 
 
   </p>
