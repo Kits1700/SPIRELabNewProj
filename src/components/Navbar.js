@@ -135,7 +135,7 @@ function Navbar() {
     
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <div class="log">
-            <img src="/images/iisc.ico" width="34px" height="32px"/> 
+            <img src="/images/IISCL.png" width="34px" height="32px"/> 
             </div>
          
           {/* <img src="/images/iisc.ico" width="33px" height="30px"/> */}
