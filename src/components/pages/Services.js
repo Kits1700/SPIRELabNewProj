@@ -6,6 +6,7 @@ import '../Navbar.css';
 import { Link } from 'react-router-dom';
 import Footer from '../Footer';
 export default function Services() {
+  window.scrollTo(0, 0)
   return (<>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
 

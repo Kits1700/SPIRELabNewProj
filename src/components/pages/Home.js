@@ -5,7 +5,9 @@ import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 
 function Home() {
+  window.scrollTo(0, 0)
   return (
+    
     <>
       <HeroSection />
       <Cards />

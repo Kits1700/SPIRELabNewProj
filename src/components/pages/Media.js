@@ -8,6 +8,7 @@ import Footer from '../Footer';
 
 export default function Media()
 {
+  window.scrollTo(0, 0)
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
   

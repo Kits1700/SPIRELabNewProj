@@ -38,7 +38,7 @@ function Cards() {
  
       </p>
       <p>
-      Project Vaani, by IISc and ARTPARK, is capturing the true diversity of India’s spoken languages to propel language AI technologies and content for an inclusive Digital India.
+      Project Vaani, by IISc, Bangalore and ARTPARK, is capturing the true diversity of India’s spoken languages to propel language AI technologies and content for an inclusive Digital India.
 
 
 
@@ -46,7 +46,7 @@ function Cards() {
 
       </p>
       <p>
-      We expect to create data corpora of over 150,000 hours of speech, part of which will be transcribed in local scripts, while ensuring linguistic, educational, urban-rural, age, and gender diversity (among other potential diversity characteristics). These diligently collected and curated datasets of natural speech and text from about 1 million people across all 773 districts of India will be open-sourced. The current version of the data is open-sourced <a href = "data">here</a>. Going forward, we hope to open source through platforms like Bhashini (under the National Language Translation Mission,MeiTY). 
+      We expect to create data corpora of over 150,000 hours of speech, part of which will be transcribed in local scripts, while ensuring linguistic, educational, urban-rural, age, and gender diversity (among other potential diversity characteristics). These diligently collected and curated datasets of natural speech and text from about 1 million people across all 773 districts of India will be open-sourced. The current version of the data is open-sourced <a href = "data">here</a>. Going forward, we hope to open source through platforms like Bhashini (under the National Language Translation Mission, MeiTY). 
 
 </p>
 

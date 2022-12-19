@@ -7,6 +7,7 @@ import Footer from '../Footer';
 import '../pages/signup.css'
 
 export default function SignUp() {
+  window.scrollTo(0, 0)
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -135,7 +136,7 @@ Filter out collected images to remove problematic ones.
 
 
   <div class = "cardtitle">
-  <h2>10% transcription </h2>
+  <h2>10% recording transcription</h2>
   <div class="down-arrow"></div>
 </div>
 <div class="cardabout5">

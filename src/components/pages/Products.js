@@ -8,7 +8,7 @@ import '../pages/part1.css'
 import '../pages/Alerts'
 import Alerts from '../pages/Alerts';
 export default function Products() {
- 
+  window.scrollTo(0, 0)
   
   function myFunction() {
     alert("Press a button!");
@@ -40,72 +40,73 @@ export default function Products() {
 
 
 
-
+<div id = "here">here</div>
   <div class="tabs">
   <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked/>
   <label for="tab1" class="tabs__label">Data Summary</label>
   <div class="tabs__content">
   <br></br>
+
     <table class = "con">
   <tr>
-    <th>Sno.</th>
     <th>State</th>
-    <th>Navigate there</th>
+    <th>Record Duration(hrs)</th>
+    <th>Speaker Count</th>
   </tr>
   <tr>
-  <td>1</td>
-  <td>Bihar</td>
-  <td><a href="#bihar">Go to State</a></td>
+  <td><u><a href="#bihar">Bihar</a></u></td>
+  <td>43.54</td>
+  <td>621</td>
   </tr>
   <tr>
+   <td><u><a href="#maha">Maharashtra</a></u></td>
+   <td>6.4</td>
+   <td>62</td>
+  </tr>
+  <tr>
+   <td><u><a href="#chh">Chhattisgarh</a></u></td>
+   <td>10.76</td>
+   <td>158</td>
+  </tr>
+  <tr>
+   <td><u><a href="#kar">Karnataka</a></u></td>
+   <td>17.51</td>
+   <td>187</td>
+  </tr>
+  <tr>
+   <td><u><a href="#up">Uttar Pradesh</a></u></td>
+   <td>21.82</td>
+   <td>398</td>
+  </tr>
+  <tr>
+   <td><u><a href="#ap">Andhra Pradesh</a></u></td>
+   <td>0.028</td>
    <td>2</td>
-   <td>Maharashtra</td>
-   <td><a href="#maha">Go to State</a></td>
   </tr>
   <tr>
-   <td>3</td>
-   <td>Chhattisgarh</td>
-   <td><a href="#chh">Go to State</a></td>
+   <td><u><a href="#raj">Rajasthan</a></u></td>
+   <td>9.89</td>
+   <td>106</td>
   </tr>
   <tr>
-   <td>4</td>
-   <td>Karnataka</td>
-   <td><a href="#kar">Go to State</a></td>
+   <td><u><a href="#wb">West Bengal</a></u></td>
+   <td>14.03</td>
+   <td>335</td>
   </tr>
   <tr>
-   <td>5</td>
-   <td>Uttar Pradesh</td>
-   <td><a href="#up">Go to State</a></td>
+   <td><u><a href="#tel">Telangana</a></u></td>
+   <td>1.60</td>
+   <td>16</td>
   </tr>
   <tr>
-   <td>6</td>
-   <td>Andhra Pradesh</td>
-   <td><a href="#ap">Go to State</a></td>
+   <td><u><a href="#goa">Goa</a></u></td>
+   <td>0.212</td>
+   <td>2</td>
   </tr>
   <tr>
-   <td>7</td>
-   <td>Rajasthan</td>
-   <td><a href="#raj">Go to State</a></td>
-  </tr>
-  <tr>
-   <td>8</td>
-   <td>West Bengal</td>
-   <td><a href="#wb">Go to State</a></td>
-  </tr>
-  <tr>
-   <td>9</td>
-   <td>Telangana</td>
-   <td><a href="#tel">Go to State</a></td>
-  </tr>
-  <tr>
-   <td>10</td>
-   <td>Goa</td>
-   <td><a href="#goa">Go to State</a></td>
-  </tr>
-  <tr>
-   <td>11</td>
-   <td>Uttarakhand</td>
-   <td><a href="#uk">Go to State</a></td>
+   <td><u><a href="#uk">Uttarakhand</a></u></td>
+   <td>8.22</td>
+   <td>87</td>
   </tr>
   
   
@@ -120,13 +121,14 @@ export default function Products() {
  
   
 </table> 
+
 <br></br>
 
 <div id = "bihar">
 <img  src = "/images/bihar.gif" width="250" height ="250"></img>
 <br></br>
 
- <h2>Bihar(43.54 hours from 621 speakers)</h2>
+ <h2>Bihar(43.54 hours from 621 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
   <br>
   </br>
   <table>
@@ -228,7 +230,7 @@ export default function Products() {
 <br>
 </br>
 
-<h2>Maharashtra(6.4 hours from 62 speakers)</h2>
+<h2>Maharashtra(6.4 hours from 62 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -272,7 +274,7 @@ export default function Products() {
 <img src = "/images/chhattisgarh.gif" width="250" height ="250"></img>
 <br>
 </br>
-<h2>Chhattisgarh(10.76 hourse from 158 speakers)</h2>
+<h2>Chhattisgarh(10.76 hourse from 158 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -328,7 +330,7 @@ export default function Products() {
 <div id = "kar">
 <img src = "/images/karnataka.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Karnataka(17.51 hours from 187 speakers)</h2>
+<h2>Karnataka(17.51 hours from 187 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -385,7 +387,7 @@ export default function Products() {
 <div id = "up">
 <img src = "/images/uttar05s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Uttar Pradesh(21.82 hours from 398 speakers)</h2>
+<h2>Uttar Pradesh(21.82 hours from 398 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -453,7 +455,7 @@ export default function Products() {
 <div id = "ap">
 <img src = "/images/andhra09s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Andhra Pradesh(0.028 hours from 2 speakers)</h2>
+<h2>Andhra Pradesh(0.028 hours from 2 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -482,7 +484,7 @@ export default function Products() {
 <div id = "raj">
 <img src = "/images/uttar05s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Rajasthan(9.89 hours from 106 speakers)</h2>
+<h2>Rajasthan(9.89 hours from 106 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -507,7 +509,7 @@ export default function Products() {
 <div id = "wb">
 <img src = "/images/bengale09s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>West Bengal(14.03 hours from 335 speakers)</h2>
+<h2>West Bengal(14.03 hours from 335 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -556,7 +558,7 @@ export default function Products() {
 </br>
 </div>
 
-<h2>Telangana(1.60 hours from 16 speakers)</h2>
+<h2>Telangana(1.60 hours from 16 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -587,7 +589,7 @@ export default function Products() {
 <br>
 </br>
 
-<h2>Goa(0.212 hours from 2 speakers)</h2>
+<h2>Goa(0.212 hours from 2 speakers) <div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table >
   <tr>
     <th>District</th>
@@ -604,9 +606,12 @@ export default function Products() {
 </div>
 <br></br>
 <div id = "uk">
+  
+
 <img src = "/images/uttarakhand05s.gif" width="250" height ="250"></img>
+
 <br></br>
-<h2>Uttarakhand(8.22 hours from 87 speakers)</h2>
+<h2>Uttarakhand(8.22 hours from 87 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -626,11 +631,12 @@ export default function Products() {
   </tr>
  
  
- 
    
   
 </table> 
+
 </div>
+
 <br></br>
 
 <br></br>
@@ -648,7 +654,8 @@ export default function Products() {
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
 
-<p class = "exlink">Click <a href ="data.json" onClick="javascript:window.alert('hi')" download>here</a> to download the json file to access the data(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</p>
+<p class = "exlink">Click <a href ="data.json" onClick="javascript:window.alert('hi')" download>here</a> to download the json file to access the data (by clicking the link you are agreeing to download the data under license: cc-by-4.0)
+</p>
 
 
 {/* <a href="/images/img-7/artpark.png" download="img" target='_blank'>

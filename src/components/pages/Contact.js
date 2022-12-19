@@ -6,6 +6,7 @@ import HeroSection from '../HeroSection';
 import HS1 from '../HS1';
 import Footer from '../Footer';
 export default function Contact() {
+  window.scrollTo(0, 0)
   return (<>
 
 <div class="container-fluid contact-form">
