@@ -55,8 +55,8 @@ export default function Products() {
   </tr>
   <tr>
   <td><u><a href="#bihar">Bihar</a></u></td>
-  <td>43.54</td>
-  <td>621</td>
+  <td>44.34</td>
+  <td>575</td>
   </tr>
   <tr>
    <td><u><a href="#maha">Maharashtra</a></u></td>
@@ -128,7 +128,7 @@ export default function Products() {
 <img  src = "/images/bihar.gif" width="250" height ="250"></img>
 <br></br>
 
- <h2>Bihar(43.54 hours from 621 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+ <h2>Bihar(44.34 hours from 575 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
   <br>
   </br>
   <table>
@@ -178,13 +178,13 @@ export default function Products() {
   </tr>
   <tr>
     <td>Kishanganj</td>
-    <td>4.122</td>
+    <td>4.927</td>
     <td>28</td>
   </tr>
   <tr>
     <td>Muzaffarpur</td>
     <td>2.203</td>
-    <td>72</td>
+    <td>26</td>
   </tr>
 
   <tr>
@@ -654,7 +654,7 @@ export default function Products() {
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
 
-<p class = "exlink">Click <a href ="data.json" onClick="javascript:window.alert('hi')" download>here</a> to download the json file to access the data.
+<p class = "exlink">Click <a href ="data.json" onClick="javascript:window.alert('hi')" download>here</a> to download the json file to access the data
 <p class = "it"> <i>(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</i></p>
 </p>
 
