@@ -142,6 +142,13 @@ tr:hover {background-color:gray;}
 {
 	z-index: 1;
 }
+.it{
+  margin-left: 0;
+  font-weight:normal;
+  margin-top: -1%;
+  transform: translateY(10vw);
+
+}
 
 h2{
   font-weight: lighter;
