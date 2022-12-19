@@ -34,11 +34,16 @@ export default function Media()
  <div class ="para">
       <br>
       </br>
+         <h2>Articles</h2>
+      <a class = "article" href='https://www.livemint.com/technology/tech-news/artparkiisc-google-to-bring-innovation-to-india-s-diverse-languages-11671445526332.html'><p><u>Artpark-IISc, Google to bring innovation to India’s diverse languages</u></p></a>
+
+    <br></br>
+ 
       <h2>Blog</h2>
       <br>
       </br>
       <div class = "titlemain">
-      <h2>Why capturing the language landscape of India is important?</h2>
+      <h2 class= "art_title">Why capturing the language landscape of India is important?</h2>
       <br></br>
     <small>Prof. Prasanta Kumar Ghosh, Raghu Dharmaraju | 18-12-2022</small>
       </div>
