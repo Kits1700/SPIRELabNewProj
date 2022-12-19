@@ -73,3 +73,12 @@
   .titlemain .art_title{
     font-weight: lighter;
   }
+
+  @media screen and (max-width: 600px) {
+    .article p {
+      text-align: center;
+     
+    }  
+    
+    }
+  
