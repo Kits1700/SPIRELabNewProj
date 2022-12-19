@@ -128,7 +128,7 @@ export default function Products() {
 <img  src = "/images/bihar.gif" width="250" height ="250"></img>
 <br></br>
 
- <h2>Bihar(43.54 hours from 621 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+ <h2>Bihar(43.54 hours from 621 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
   <br>
   </br>
   <table>
@@ -230,7 +230,7 @@ export default function Products() {
 <br>
 </br>
 
-<h2>Maharashtra(6.4 hours from 62 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>Maharashtra(6.4 hours from 62 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -274,7 +274,7 @@ export default function Products() {
 <img src = "/images/chhattisgarh.gif" width="250" height ="250"></img>
 <br>
 </br>
-<h2>Chhattisgarh(10.76 hourse from 158 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>Chhattisgarh(10.76 hourse from 158 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -330,7 +330,7 @@ export default function Products() {
 <div id = "kar">
 <img src = "/images/karnataka.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Karnataka(17.51 hours from 187 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>Karnataka(17.51 hours from 187 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -387,7 +387,7 @@ export default function Products() {
 <div id = "up">
 <img src = "/images/uttar05s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Uttar Pradesh(21.82 hours from 398 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>Uttar Pradesh(21.82 hours from 398 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -455,7 +455,7 @@ export default function Products() {
 <div id = "ap">
 <img src = "/images/andhra09s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Andhra Pradesh(0.028 hours from 2 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>Andhra Pradesh(0.028 hours from 2 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -484,7 +484,7 @@ export default function Products() {
 <div id = "raj">
 <img src = "/images/uttar05s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>Rajasthan(9.89 hours from 106 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>Rajasthan(9.89 hours from 106 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -509,7 +509,7 @@ export default function Products() {
 <div id = "wb">
 <img src = "/images/bengale09s.gif" width="250" height ="250"></img>
 <br></br>
-<h2>West Bengal(14.03 hours from 335 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>West Bengal(14.03 hours from 335 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
@@ -558,7 +558,7 @@ export default function Products() {
 </br>
 </div>
 
-<h2>Telangana(1.60 hours from 16 speakers))<div class = "top"><a href="#here">Back to Top.</a></div></h2>
+<h2>Telangana(1.60 hours from 16 speakers)<div class = "top"><a href="#here">Back to Top.</a></div></h2>
 <table>
   <tr>
     <th>District</th>
