@@ -54,7 +54,7 @@ export default function Products() {
     <th>Speaker Count</th>
   </tr>
   <tr>
-  <td><a href="#bihar">Bihar</a></td>
+  <td><u><a href="#bihar">Bihar</a></u></td>
   <td>44.34</td>
   <td>575</td>
   </tr>
