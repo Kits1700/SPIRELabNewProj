@@ -35,6 +35,7 @@ export default function Media()
       <br>
       </br>
          <h2>Articles</h2>
+         <br></br>
       <a class = "article" href='https://www.livemint.com/technology/tech-news/artparkiisc-google-to-bring-innovation-to-india-s-diverse-languages-11671445526332.html'><p><u>- Artpark-IISc, Google to bring innovation to India’s diverse languages</u></p></a>
       <a class = "article" href='https://www.livemint.com/companies/start-ups/google-taps-ai-to-grasp-india-s-language-diversity-11671466688191.html?utm_source=pocket_mylist'><p><u>- Google taps AI to grasp India’s language diversity</u></p></a>
 
