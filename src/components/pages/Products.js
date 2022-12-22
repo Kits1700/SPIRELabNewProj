@@ -654,8 +654,9 @@ export default function Products() {
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
 
-<p class = "exlink">Click <a href ="data.json" onClick="javascript:window.alert('hi')" download>here</a> to download the json file to access the data.
+<p class = "exlink">Click <a href ="data.json"  download  onclick="_gaq.push([‘_trackEvent’,’Download’,’json’,this.href]);">here</a> to download the json file to access the data.
 <i> <br></br>(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</i></p>
+
 
 
 
