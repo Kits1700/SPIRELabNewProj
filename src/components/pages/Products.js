@@ -10,9 +10,18 @@ import Alerts from '../pages/Alerts';
 export default function Products() {
   window.scrollTo(0, 0)
   
-  function myFunction() {
-    alert("Press a button!");
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
   }
+}
   
 //   document
 //   .getElementById('target')
@@ -655,7 +664,12 @@ The data from Project Vaani is available under license: <a href = "https://creat
 </p>
 
 <p class = "exlink">Click <a href ="data.json"  download  onclick="_gaq.push([‘_trackEvent’,’Download’,’json’,this.href]);">here</a> to download the json file to access the data.
-<i> <br></br>(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</i></p>
+<i> <br></br>(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</i><br></br><br></br><div class = "downtext">Number of downloads: 63</div>
+</p>
+
+
+
+
 
 
 
