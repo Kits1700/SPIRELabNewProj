@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef  } from 'react';
 import '../pages/Products.css'
 import Cards from '../Cards';
 import HeroSection from '../HeroSection';
@@ -7,35 +7,55 @@ import Footer from '../Footer';
 import '../pages/part1.css'
 import '../pages/Alerts'
 import Alerts from '../pages/Alerts';
+import { firestore } from "./firebase";
+
+import { addDoc,collection } from "@firebase/firestore";
+import "../Button";
+import { async } from '@firebase/util';
 export default function Products() {
-  window.scrollTo(0, 0)
+  window.scrollTo(0, 0);
+
+//   const ref = collection(firestore,"trackclicks");
+// var database = firestore.database();
+const [count, setCount] = useState(289);
+const messageRef = useRef();
+const ref = collection(firestore,"tracklicks");
   
-function clickCounter() {
-  if (typeof(Storage) !== "undefined") {
-    if (localStorage.clickcount) {
-      localStorage.clickcount = Number(localStorage.clickcount)+1;
-    } else {
-      localStorage.clickcount = 1;
-    }
-    document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
-  } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  // const handleSave = async(e) =>{
+  //   e.preventDefault();
+
+  //   let data = {
+  //     message:messageRef.current.value,
+  //   }
+
+  //   try{
+  //     addDoc(ref,data);
+  //   } catch(e){
+  //     console.log(e);
+  //   }
+   
+
+let incrementCount = async(e) => {
+
+  e.preventDefault();
+  setCount(count + 1);
+  let data = {
+    counts:count+1,
+    //     message:messageRef.current.value,
+       }
+       e.preventDefault();
+
+  try{
+    addDoc(ref,data);
+    
+  }catch(e){
+    console.log(e);
   }
-}
-  
-//   document
-//   .getElementById('target')
-//   .addEventListener('change', function () {
-//     'use strict';
-//     var vis = document.querySelector('.vis'),   
-//       target = document.getElementById(this.value);
-//     if (vis !== null) {
-//       vis.className = 'inv';
-//     }
-//     if (target !== null ) {
-//       target.className = 'vis';
-//     }
-// });
+  ref.on("value", (snapshot) => {
+    setCount(snapshot.val());
+       });
+};
+
 
   return (<>
 
@@ -663,8 +683,18 @@ function clickCounter() {
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
 
-<p class = "exlink">Click <a href ="data.json"  download  onclick="_gaq.push([‘_trackEvent’,’Download’,’json’,this.href]);">here</a> to download the json file to access the data.
-<i> <br></br>(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</i><br></br><br></br><div class = "downtext">Number of downloads: 63</div>
+<p class = "exlink" >Click <a  class="mainlink" href ="data.json" download onMouseUp={incrementCount} >here</a> to download the json file to access the data.
+<i> <br></br>(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</i><br></br><br></br><div class = "downtext" >Number of downloads: 
+{count}
+  
+{/* <button title={"+"} onClick={incrementCount}>
+ADD
+</button>
+<div class="count">
+          <h3>Count:</h3>
+          <h1>{count}</h1>
+        </div> */}
+</div>
 </p>
 
 

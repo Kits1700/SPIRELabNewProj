@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef  } from 'react';
 import { Button } from './Button';
 import './Cards.css';
 import CardItem from './CardItem';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import { firestore } from "./pages/firebase";
+import { addDoc,collection } from "@firebase/firestore";
+
 function Cards() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -24,7 +27,24 @@ function Cards() {
   }, []);
 
   window.addEventListener('resize', showButton);
+  const messageRef = useRef();
+  const ref = collection(firestore,"clicks");
+  
+  const handleSave = async(e) =>{
+    e.preventDefault();
 
+    let data = {
+      mess:messageRef.current.value,
+    }
+
+    try{
+      addDoc(ref,data);
+    } catch(e){
+      console.log(e);
+    } 
+   
+
+  }
   return (
     <>
     <div class ="para">
@@ -61,11 +81,19 @@ function Cards() {
       </p>
       <p>Google is funding the Project Vaani.
 </p>
+{/* <div>
+      <form onSubmit={handleSave}>
+        <label>Enter Message</label>
+        <input type = "text" ref ={messageRef} />
+        <button type="submit">Save</button>
+      </form>
+    </div> */}
     <br>
     </br>
  
 
     </div>
+   
 
     </>
   );
