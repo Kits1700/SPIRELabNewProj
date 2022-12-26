@@ -1,4 +1,4 @@
-import React, { useState, useEffect,useRef  } from 'react';
+import React, { useState,useRef } from 'react';
 import '../pages/Products.css'
 import Cards from '../Cards';
 import HeroSection from '../HeroSection';
@@ -7,7 +7,8 @@ import Footer from '../Footer';
 import '../pages/part1.css'
 import '../pages/Alerts'
 import Alerts from '../pages/Alerts';
-import { firestore } from "./firebase";
+import { firestore,auth } from "./firebase";
+import { getFirestore } from "@firebase/firestore";
 
 import { addDoc,collection } from "@firebase/firestore";
 import "../Button";
@@ -16,11 +17,14 @@ export default function Products() {
   window.scrollTo(0, 0);
 
 //   const ref = collection(firestore,"trackclicks");
-// var database = firestore.database();
-const [count, setCount] = useState(289);
+
 const messageRef = useRef();
 const ref = collection(firestore,"tracklcicks");
-  
+
+// value = ref.orderBy("counts","desc").limit(1);
+
+
+// firestore().collection("tracklcicks").limit(1);
   // const handleSave = async(e) =>{
   //   e.preventDefault();
 
@@ -33,13 +37,19 @@ const ref = collection(firestore,"tracklcicks");
   //   } catch(e){
   //     console.log(e);
   //   }
+  const db = getFirestore();
    
-
+  const [count, setCount] = useState(301);
 let incrementCount = async(e) => {
 
   e.preventDefault();
   setCount(count + 1);
+  const value = ref.orderBy("counts","desc").limit(1).get();
+ 
+  console.log(value);
   let data = {
+
+
     counts:count+1,
     //     message:messageRef.current.value,
        }
@@ -51,9 +61,7 @@ let incrementCount = async(e) => {
   }catch(e){
     console.log(e);
   }
-  ref.on("value", (snapshot) => {
-    setCount(snapshot.val());
-       });
+
 };
 
 
