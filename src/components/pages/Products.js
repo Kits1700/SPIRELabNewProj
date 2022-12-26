@@ -19,7 +19,7 @@ export default function Products() {
 // var database = firestore.database();
 const [count, setCount] = useState(289);
 const messageRef = useRef();
-const ref = collection(firestore,"tracklicks");
+const ref = collection(firestore,"tracklcicks");
   
   // const handleSave = async(e) =>{
   //   e.preventDefault();
