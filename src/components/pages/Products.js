@@ -19,7 +19,7 @@ export default function Products() {
 //   const ref = collection(firestore,"trackclicks");
 
 const messageRef = useRef();
-const ref = collection(firestore,"tracklcicks");
+const ref = collection(firestore,"track-clicks");
 
 // value = ref.orderBy("counts","desc").limit(1);
 
@@ -44,9 +44,9 @@ let incrementCount = async(e) => {
 
   e.preventDefault();
   setCount(count + 1);
-  const value = ref.orderBy("counts","desc").limit(1).get();
- 
-  console.log(value);
+//   var high = collection(firestore,"tracklcicks").orderBy('counts','desc').limit(1);
+//   high = Number(high);
+//  setCount(high);
   let data = {
 
 
