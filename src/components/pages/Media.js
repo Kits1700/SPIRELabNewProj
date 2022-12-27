@@ -38,6 +38,7 @@ export default function Media()
          <br></br>
       <a class = "article" href='https://www.livemint.com/technology/tech-news/artparkiisc-google-to-bring-innovation-to-india-s-diverse-languages-11671445526332.html'><p><u>- Artpark-IISc, Google to bring innovation to India’s diverse languages</u></p></a>
       <a class = "article" href='https://www.livemint.com/companies/start-ups/google-taps-ai-to-grasp-india-s-language-diversity-11671466688191.html?utm_source=pocket_mylist'><p><u>- Google taps AI to grasp India’s language diversity</u></p></a>
+      <a class = "article" href='https://www.thehindubusinessline.com/news/variety/project-vaani-scales-decibels-as-it-maps-language-landscape-of-india/article66304920.ece'><p><u>- Project Vaani scales decibels as it maps language landscape of India</u></p></a>
 
     <br></br>
  
