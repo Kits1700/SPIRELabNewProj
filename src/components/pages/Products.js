@@ -39,7 +39,7 @@ const ref = collection(firestore,"track-clicks");
   //   }
   const db = getFirestore();
    
-  const [count, setCount] = useState(301);
+  const [count, setCount] = useState(536);
 let incrementCount = async(e) => {
 
   e.preventDefault();
