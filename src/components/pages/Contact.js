@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import '../pages/Products.css'
 import '../pages/Contact.css'
 import Cards from '../Cards';

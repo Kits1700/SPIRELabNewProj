@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react';
+import React, { useState,useRef,useEffect } from 'react';
 import '../pages/Products.css'
 import Cards from '../Cards';
 import HeroSection from '../HeroSection';
@@ -10,53 +10,60 @@ import Alerts from '../pages/Alerts';
 import { firestore,auth } from "./firebase";
 import { getFirestore } from "@firebase/firestore";
 
-import { addDoc,collection } from "@firebase/firestore";
+import { addDoc,collection,doc,setDoc,getDoc } from "@firebase/firestore";
 import "../Button";
 import { async } from '@firebase/util';
+
+
 export default function Products() {
   window.scrollTo(0, 0);
-
-//   const ref = collection(firestore,"trackclicks");
 
 const messageRef = useRef();
 const ref = collection(firestore,"track-clicks");
 
-// value = ref.orderBy("counts","desc").limit(1);
-
-
-// firestore().collection("tracklcicks").limit(1);
-  // const handleSave = async(e) =>{
-  //   e.preventDefault();
-
-  //   let data = {
-  //     message:messageRef.current.value,
-  //   }
-
-  //   try{
-  //     addDoc(ref,data);
-  //   } catch(e){
-  //     console.log(e);
-  //   }
+  var dataCounts = 0;
   const db = getFirestore();
+  const docRef = doc(db, "track-clicks", "sameID" );
+ 
+ 
+
+  useEffect(() =>{
+    getData();
+  });
+
+  var [count, setCount] = useState(543);
+  let getData = () => {
+  getDoc(doc(db, "track-clicks", "sameID")).then(docSnap => {
+  if (docSnap.exists()) {
+    var dataCount = docSnap.data().counts;
+    count = dataCount;
    
-  const [count, setCount] = useState(536);
+
+  } else {
+    console.log("No such document!");
+  }
+})
+
+}
+
+  
+ 
 let incrementCount = async(e) => {
 
+ 
   e.preventDefault();
+  
   setCount(count + 1);
-//   var high = collection(firestore,"tracklcicks").orderBy('counts','desc').limit(1);
-//   high = Number(high);
-//  setCount(high);
   let data = {
-
+ 
 
     counts:count+1,
-    //     message:messageRef.current.value,
+   
        }
        e.preventDefault();
 
   try{
-    addDoc(ref,data);
+    setDoc(docRef,data);
     
   }catch(e){
     console.log(e);
@@ -68,14 +75,6 @@ let incrementCount = async(e) => {
   return (<>
 
 <html>
-
-
-
-
-
-
-
-
 
 <div id = "here">here</div>
   <div class="tabs">
@@ -705,59 +704,6 @@ ADD
 </div>
 </p>
 
-
-
-
-
-
-
-
-{/* <a href="/images/img-7/artpark.png" download="img" target='_blank'>
-<button type="button" class="btn btn-success btn-lg btn-block">Download Resume</button>
-</a> */}
-
-
-   
-  {/* <br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
- <br>
- </br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br> */}
  <Footer />
   </div>
 </div>
