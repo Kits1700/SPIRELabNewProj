@@ -82,8 +82,11 @@ let incrementCount = async(e) => {
   <label for="tab1" class="tabs__label">Data Summary</label>
   <div class="tabs__content">
   <br></br>
+<div>
 
-    <table class = "con">
+</div>
+<h2>Coming Soon...</h2>
+    {/* <table class = "con">
   <tr>
     <th>State</th>
     <th>Record Duration(hrs)</th>
@@ -675,7 +678,7 @@ let incrementCount = async(e) => {
 
 <br></br>
 
-<br></br>
+<br></br> */}
   <Footer />
   <br></br>
 
