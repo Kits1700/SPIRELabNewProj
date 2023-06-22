@@ -31,7 +31,7 @@ const ref = collection(firestore,"track-clicks");
     getData();
   });
 
-  var [count, setCount] = useState(543);
+  var [count, setCount] = useState(1016);
   let getData = () => {
   getDoc(doc(db, "track-clicks", "sameID")).then(docSnap => {
   if (docSnap.exists()) {
