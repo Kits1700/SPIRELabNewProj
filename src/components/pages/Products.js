@@ -693,7 +693,14 @@ let incrementCount = async(e) => {
 The data from Project Vaani is available under license: <a href = "https://creativecommons.org/licenses/by/4.0/legalcode" >cc-by-4.0 </a>
 </p>
 
-<p class = "exlink" >Click <a  class="mainlink" href ="data.json" download onMouseUp={incrementCount} >here</a> to download the json file to access the data.
+<p class = "exlink" >
+19 Dec, 2022:<br/>
+Click <a  class="mainlink" href ="data_19dec.tar.gz" download onMouseUp={incrementCount} >here</a> to download the json file to access the data.
+(for complete audio data download click <a  class="mainlink" href ="Audios_19dec.tar.gz" download>here</a>)
+<br/>
+22 Jun, 2023:<br/>
+Click <a  class="mainlink" href ="data_22jun.tar.gz" download onMouseUp={incrementCount} >here</a> to download the json file to access the data.
+(for complete audio data download click <a  class="mainlink" href ="Audios_22jun.tar.gz" download>here</a>)
 <i> <br></br>(by clicking the link you are agreeing to download the data under license: cc-by-4.0)</i><br></br><br></br><div class = "downtext" >Number of downloads: 
 {count}
   

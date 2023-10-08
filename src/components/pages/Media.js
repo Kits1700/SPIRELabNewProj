@@ -36,9 +36,36 @@ export default function Media()
       </br>
          <h2>Articles</h2>
          <br></br>
-      <a class = "article" href='https://www.livemint.com/technology/tech-news/artparkiisc-google-to-bring-innovation-to-india-s-diverse-languages-11671445526332.html'><p><u>- Artpark-IISc, Google to bring innovation to India’s diverse languages</u></p></a>
-      <a class = "article" href='https://www.livemint.com/companies/start-ups/google-taps-ai-to-grasp-india-s-language-diversity-11671466688191.html?utm_source=pocket_mylist'><p><u>- Google taps AI to grasp India’s language diversity</u></p></a>
-      <a class = "article" href='https://www.thehindubusinessline.com/news/variety/project-vaani-scales-decibels-as-it-maps-language-landscape-of-india/article66304920.ece'><p><u>- Project Vaani scales decibels as it maps language landscape of India</u></p></a>
+         <a class="article" href='https://www.livemint.com/technology/tech-news/artparkiisc-google-to-bring-innovation-to-india-s-diverse-languages-11671445526332.html'><p><u>Artpark-IISc, Google to bring innovation to India’s diverse languages</u></p></a>
+
+<a class="article" href='https://www.livemint.com/companies/start-ups/google-taps-ai-to-grasp-india-s-language-diversity-11671466688191.html?utm_source=pocket_mylist'><p><u>Google taps AI to grasp India’s language diversity</u></p></a>
+
+<a class="article" href='https://www.thehindubusinessline.com/news/variety/project-vaani-scales-decibels-as-it-maps-language-landscape-of-india/article66304920.ece'><p><u>Project Vaani scales decibels as it maps language landscape of India</u></p></a>
+
+<a class="article" href='https://www.ceoinsightsindia.com/business-inside/india-s-first-google-io-connect-the-future-of-user-experience-is-here-nwid-14737.html'><p><u>India's First Google I/O Connect: The Future of User Experience is Here</u></p></a>
+
+<a class="article" href='https://dig.watch/updates/googles-efforts-to-enhance-indian-language-data-and-combat-ai-bias'><p><u>Google's Efforts to Enhance Indian Language Data and Combat AI Bias</u></p></a>
+
+<a class="article" href='https://hindi.gstimes.in/current-affairs-in-hindi/google-launches-project-vaani-in-partnership-with-iisc/'><p><u>Google Launches Project Vaani in Partnership with IISc</u></p></a>
+
+<a class="article" href='https://thetechnisk.in/news/vaani/'><p><u>Google’s Vaani to collect languages from 773 Indian District</u></p></a>
+
+<a class="article" href='https://trak.in/stories/google-indias-big-ai-ml-push-language-samples-from-700-districts-will-be-collected-grants-rs-8-crore-to-iisc/'><p><u>Google India's Big AI/ML Push: Language Samples from 700 Districts Will Be Collected, Grants Rs 8 Crore to IISc</u></p></a>
+
+<a class="article" href='https://upsccurrentaffairs.net.in/2023/01/04/project-vaani-will-be-implemented-jointly-by-the-indian-institute-of-sciences-iisc-artpark-ai-and-robotics-technology-park-and-google/'><p><u>Project Vaani Will Be Implemented Jointly by the Indian Institute of Sciences (IISc), Artpark AI and Robotics Technology Park, and Google</u></p></a>
+
+<a class="article" href='https://economictimes.indiatimes.com/tech/technology/project-vaani-how-google-plans-to-collect-dialects-across-773-districts-in-india/videoshow/96339407.cms?from=mdr'><p><u>Project Vaani: How Google Plans to Collect Dialects Across 773 Districts in India</u></p></a>
+
+<a class="article" href='https://timesofindia.indiatimes.com/business/india-business/google-announces-ai-projects-in-indian-languages-agri/articleshow/96359903.cms'><p><u>Google Announces AI Projects in Indian Languages and Agriculture</u></p></a>
+
+<a class="article" href='https://unorthodoxacademy.com/project-vaani-how-google-aims-to-comprehend-all-dialects-and-languages-spoken-in-india/'><p><u>Project Vaani: How Google Aims to Comprehend All Dialects and Languages Spoken in India</u></p></a>
+
+<a class="article" href='https://www.mybrandbook.co.in/redirect.php?p=33793'><p><u>Google to partner with IISC for Project Vaani</u></p></a>
+
+
+<a class="article" href='https://www.sanskritiias.com/pt-cards/project-vaani-45'><p><u>Project Vaani</u></p></a>
+
+<a class="article" href='https://www.financialexpress.com/jobs-career/education-google-vaani-google-for-india-iisc-iit-iitm-ai-ml-education-2919264/'><p><u>Education: Google Vaani - Google for India - IISc, IIT, IITM - AI & ML Education</u></p></a>
 
     <br></br>
  
