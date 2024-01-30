@@ -1,0 +1,150 @@
+/* Set full width and height for the map container */
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+h2 {
+  justify-content: left;
+  font-weight: lighter;
+  text-align: left;
+}
+
+/* Style the main container for map and cards */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the map container with margin */
+.map-container {
+  width: 42%; /* Adjusted width for larger screens */
+  margin: 10px auto;
+}
+
+/* Style the hover card */
+.hover-card {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.147); /* Slightly less transparency */
+  padding: 100px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1); /* Better box shadow */
+  border-radius: 15px; /* Adjusted border radius for rounded edges */
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.hover-card li:hover {
+  color: red; /* Change color on hover */
+  background-color: #f5f5f5; /* Add background color on hover */
+}
+
+/* Style the selected list item for Districts */
+.hover-card li.selected {
+  color: red; /* Change color for the selected item */
+  background-color: #f5f5f5; /* Add background color for the selected item */
+}
+
+/* Style the selected list item for Languages */
+.hover-card .lang1 li.selected {
+  color: red; /* Change color for the selected language */
+  background-color: #f5f5f5; /* Add background color for the selected language */
+}
+.language-card li.selected {
+  color: red; /* Change color for the selected item */
+  background-color: #f5f5f5;
+}
+/* Adjust styles for list items inside the hover card */
+.hover-card ul {
+  padding: 0;
+}
+
+.hover-card li {
+  cursor: pointer;
+  list-style: none;
+  margin: 5px 0;
+  text-align: left;
+  transition: color 0.3s; /* Add a smooth transition effect for color */
+}
+
+/* Hover effect for list items */
+.hover-card li:hover {
+  color: red; /* Change color on hover */
+  background-color: #f5f5f5; /* Add background color on hover */
+}
+
+/* Style the close button inside the hover card */
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 3px;
+  cursor: pointer;
+  font-size: 24px; /* Increase font size */
+  color: #707070;
+  border: none;
+  background: none;
+  padding: 5px; /* Increased padding for better clickability */
+  transition: color 0.3s, background-color 0.3s; /* Add smooth transition effects */
+}
+
+/* Hover effect for the close button */
+.close-button:hover {
+  color: #ff0000; /* Change color on hover */
+  background-color: rgba(0, 0, 0, 0.1); /* Add background color on hover */
+}
+
+/* Add a subtle transition effect */
+.hover-card li {
+  transition: background-color 0.3s ease;
+}
+
+h4 {
+  text-align: left;
+  font-weight: lighter;
+}
+
+.District {
+  align-items: flex-start;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  body {
+    overflow: hidden; /* Hide overflow for body */
+  }
+
+  .map-container {
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .hover-card,
+  .language-card {
+    position: absolute;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+
+  .hover-card {
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+  }
+
+  .language-card {
+    bottom: 140px; /* Adjust the top position as needed */
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+  }
+
+  .close-button {
+    padding: 8px;
+  }
+}

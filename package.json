@@ -4,21 +4,27 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
+    "@svg-maps/india": "^1.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^5.2.3",
+    "d3-geo": "^3.1.0",
     "firebase": "^9.15.0",
     "leaflet": "^1.9.3",
     "mdb-easydata": "^1.0.0-alpha5",
+    "papaparse": "^5.4.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^17.0.2",
     "react-firebase-auth-hooks": "^1.0.0",
     "react-firebase-hooks": "^5.1.1",
+    "react-india-states-map": "^1.0.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^2.1.3"
+    "react-scripts": "^2.1.3",
+    "react-simple-maps": "^3.0.0",
+    "react-svg-map": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

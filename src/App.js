@@ -11,6 +11,7 @@ import Contact from './components/pages/Contact';
 import About from './components/pages/About';
 import About1 from './components/pages/About1';
 import Media from './components/pages/Media';
+import Map from './components/pages/Map';
 
 function App() {
   return (

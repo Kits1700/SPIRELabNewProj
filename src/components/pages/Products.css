@@ -8,7 +8,13 @@
    
   }
   body{
-    background-color: white;
+    background-color: gray;
+  }
+  h4{
+    font-weight: lighter;
+  }
+  li{
+font-size: small;
   }
   .tabs__label {
     padding: 10px 16px;
@@ -29,9 +35,10 @@
   }
     
   .tabs__content h2 {
-  margin-left: 0;
   color: #000;
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: medium;
+  text-align: left;
   }
   .tabs__content img{
     display: block;
@@ -152,6 +159,7 @@ tr:hover {background-color:gray;}
 
 h2{
   font-weight: lighter;
+
 }
 .last{
   margin-bottom: 10px;
@@ -206,7 +214,7 @@ margin-left: 10%;
   margin-top: 3%;
     width: 350px;
   height: 45px;
-  color:white;
+  color:black;
   box-sizing: border-box;
   margin-left: 1.5%;
 }
